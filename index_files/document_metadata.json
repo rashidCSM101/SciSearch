@@ -1,0 +1,1106 @@
+{
+  "0": {
+    "title": "Heterogeneous Collaborative Refining for Real-Time End-to-End Image-Text Retrieval System",
+    "author": "Nan, Guo*, Min, Yang, Xiaoping, Chen, Xiao, Xiao, Chenhao, Wang, Xiaochun, Ye, Dongrui, Fan",
+    "abstract": "Theimage-textretrievaltaskcurrentlysuffersfromhighsearch Cross-modalretrievalistofindtherelationshipbetweendifferent latencyduetothecostofimagefeatureextractionandsemantic modal samples and realize the use of a specific modal piece to alignmentcalculation.Weproposeareal-timeimage-textretrieval searchforothermodalinstanceswithsimilarsemantics.Image- systemforedge-endserverswithlow-powerAIacceleratorcards. textretrievalisoneoftheprimarythemesofcross-modality.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\1.pdf"
+  },
+  "1": {
+    "title": "Efficient Video Retrieval with Advanced Deep Learning Models",
+    "author": "TanLuanHuynh\u2217 MinhToanDinh\u2217 HongLinhPham\u2217",
+    "abstract": "Videoretrievalistheprocessoffindingspecificvideocontentin TanLuanHuynh,MinhToanDinh,HongLinhPham,LeHoangNguyen, andTuanManhHungVo.2023.EfficientVideoRetrievalwithAdvanced alargedatabase.Thisisacrucialchallengeintheageofdigital multimedia.Thisarticleproposesanewapproachtovideoretrieval DeepLearningModels.InThe12thInternationalSymposiumonInformation andCommunicationTechnology(SOICT2023),December07\u201308,2023,HoChi usingadvanceddeeplearningmodelstoextractfeaturesandper- Minh,Vietnam.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\10.pdf"
+  },
+  "2": {
+    "title": "Method of Lexical Enrichment in Information Retrieval",
+    "author": "Unknown Author",
+    "abstract": "performance of the information retrieval systems SRI. This method has two types of enrichment: linguistic and contextual. The first one is based on the linguistic analysis (lemmatization, morphological, syntactic and semantic analysis), whose goal is to generate a descriptive list (list-desc). This list contains a set of linguistic lexicon assigned to each significant term in the query. The second enrichment consists in integrating contextual information derived from the corpus documents.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\100.pdf"
+  },
+  "3": {
+    "title": "untitled",
+    "author": "Unknown Author",
+    "abstract": "descriptors is a difficult problem, due to the lack of reliable turestoyieldsimilaritymeasuresthatestimatemusicwithsim- methodsforextractingmelody,harmony,rhythm,andothersuch ilartimbreandtempoassimilar.Suchsimilaritymeasuresfre- descriptors from unstructured audio signals. In this paper, we quentlycorrespondwellwithgenrelabels,sothesemethodsare presentanovelapproachtomelody-basedretrievalinaudiocol- usedforsearchingandorganizingmusiccollectionsaccording lections.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\108.pdf"
+  },
+  "4": {
+    "title": "doi:10.1016/j.ijar.2003.07.010",
+    "author": "Unknown Author",
+    "abstract": "application of evolutionary computation to the field of information retrieval will be reviewed. To do so, different kinds of IR problems that have been solved by evolu- tionary algorithms are analyzed. Some of the specific existing approaches will be spe- cificallydescribedforsomeoftheseproblemsandtheobtainedresultswillbecritically evaluatedin orderto give a clear viewof the topictothe reader. (cid:1)2003Elsevier Inc. Allrightsreserved.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\109.pdf"
+  },
+  "5": {
+    "title": "Binary Embedding-based Retrieval at Tencent",
+    "author": "Yukang Gan",
+    "abstract": "Large-scaleembedding-basedretrieval(EBR)isthecornerstone techniqueexploitsSingleInstructionMultipleData(SIMD)units ofsearch-relatedindustrialapplications.Givenauserquery,the widelyavailableincurrentCPUs. systemofEBRaimstoidentifyrelevantinformationfromalarge WesuccessfullyemployedtheintroducedBEBRtowebsearch corpusofdocumentsthatmaybetensorhundredsofbillionsin andcopyrightdetectionofTencentproducts,includingSogou,Ten- size.Thestorageandcomputationturnouttobeexpensiveand centVideo,QQWorld,etc.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\11.pdf"
+  },
+  "6": {
+    "title": "system specifies to what extent a document matches the concept expressed",
+    "author": "the index terms.",
+    "abstract": "morewhenthecomplexityofthefuzzyquerylanguagemakesdifficulttoformulateuser queries.Theuseoflinguisticvariablestorepresenttheinputandoutputinformationin the retrieval process of IRSs significantly improves the IRS-user interaction. In the activityofanIRS,thereareaspectsofdifferentnaturetobeassessed,e.g.,therelevance of documents, the importance of query terms, etc. Therefore, these aspects should be assessed with different uncertainty degrees, i.e.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\110.pdf"
+  },
+  "7": {
+    "title": "AnInformationRetrievalSystemwithWeightedQueryingBasedon Multi-GranularLinguisticInformation",
+    "author": "Unknown Author",
+    "abstract": "Information Retrieval (IR) is a research field ref- In this contribution, an information re- ered the storage and retrieval of textual informa- trieval system (IRS) based on fuzzy tion [7, 9]. An important question in the IRSs multi-granular linguistic information is is how to facilitate the IRS-user interaction. The proposed.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\111.pdf"
+  },
+  "8": {
+    "title": "Information retrieval in context",
+    "author": "Unknown Author",
+    "abstract": "IR research is now conducted in multi-media, multi-lingual, and multi-modal environments but largely in",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\112.pdf"
+  },
+  "9": {
+    "title": "Microsoft Word - _...Z_90-61 revised short.doc",
+    "author": "chris",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\113.pdf"
+  },
+  "10": {
+    "title": "The ECOINFORM Information Retrieval System",
+    "author": "A. G. Vasil\u2019ev, M. A. Akoev, A. A. Sal\u2019nikov, and L. N. Smirnov",
+    "abstract": "retrieval system (IRS) (http://ecoinf.uran.ru/) are described using the Urals and western Siberia as model regions. The IRS is aimed at ensuring effective access to the latest information in various fields of theoretical and applied ecology, overcoming the informational isolation of research centers and state reserves in remote regions, coordinating and intensifying joint ecological studies, and integrating the fundamental science and higher-education institutions.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\114.pdf"
+  },
+  "11": {
+    "title": "Research of 3D Model for Information Retrieval Methods Based on Semantic Tree",
+    "author": "Unknown Author",
+    "abstract": "retrieval field,describe the semantics of single model by using is necessary to build an all-inclusive semantic knowledge-base annotation,and present the semantics of 3D models by using as the objects in real-world have many different meanings and semantic tree,based on the semantic similarity between the correspond to the models with different retrieval terms and semantic tree nodes with WordNet,and semantics.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\115.pdf"
+  },
+  "12": {
+    "title": "DIRECTORY RETRIEVAL USING VOICE FORM-FILLING",
+    "author": "Unknown Author",
+    "abstract": "plete form, or dynamically constructing grammars for each Accurate retrieval of entries from large directories is a dif- fieldconstrainedbyinputalreadyprovidedbytheuser.These ficult task. Practical systems attempt to achieve acceptable simplemethodscangetimpracticalforformswithmanyfields performanceusingdialogtorestrictthesizeofthedirectory. and large vocabularies [2].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\116.pdf"
+  },
+  "13": {
+    "title": "Compressed Domain Image Retrieval Using Thumbnails of Images",
+    "author": "Vidya R. Khapli Anjali S Bhalchandra",
+    "abstract": "compression itself has also been a very active research The emergence of multimedia, the availability of a topic. The large volumes of images necessitate the use large digital archives, and the rapid growth of World of compression techniques. Hence, the visual data in Wide Web (WWW) have recently attracted research future multimedia databases are expected to be stored efforts in providing tools for effective retrieval of in the compressed form. In order to prevent the need to image database.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\117.pdf"
+  },
+  "14": {
+    "title": "Microsoft Word - p27-woodruff.doc",
+    "author": "Lisa",
+    "abstract": "We introduce a technique for creating novel, textually- brief textual summaries of the Web documents. We believe enhanced thumbnails of Web pages. These thumbnails that this latter practice can be improved upon. combine the advantages of image thumbnails and text We have performed a quantitative comparative study of summaries to provide consistent performance on a variety textual and graphical summarization mechanisms applied to of tasks.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\118.pdf"
+  },
+  "15": {
+    "title": "Voice-Input Multimedia Information Retrieval System Based on Text-to-image GAN",
+    "author": "Unknown Author",
+    "abstract": "tion retrieval system. By utilizing text-to-image Generative Adversarial Network and image-to-text model, the developed system enables users to retrieve an objective content utilizing voice as an input with high accuracy. Experimental results show the effectiveness of the developed system. I.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\119.pdf"
+  },
+  "16": {
+    "title": "Query-basedMulti-DocumentSummarizationby ClusteringofDocuments",
+    "author": "Unknown Author",
+    "abstract": "tering Gain Information Retrieval (IR) systems such as search engines retrieve a large set of documents, images and videos in re- sponsetoauserquery. ComputationalmethodssuchasAu- 1. INTRODUCTION tomaticTextSummarization(ATS)reducethisinformation Automatic Text Summarization [12] reduces the volume loadenablinguserstofindinformationquicklywithoutread- of information by creating a summary from one or more ingtheoriginaltext. ThechallengestoATSincludeboththe text documents.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\12.pdf"
+  },
+  "17": {
+    "title": "Segmentation. It's impossible to recommend a movie to the",
+    "author": "public usually have low reference value.",
+    "abstract": "equipment has increased year by year, which has brought the according to different plots, in changing shooting occasions. number of videos growing rapidly. It is of practical significance Because of the variety of film content, we choose film as the to establish a high-quality video library for the reference of source of material. When users lack inspiration, they are creators. In this paper we describe a video clip retrieval software, provided with movie clips containing the required content.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\120.pdf"
+  },
+  "18": {
+    "title": "Using Color Strings Comparison for Video Frames Retrieval",
+    "author": "Ching-Hung Su",
+    "abstract": "developed to retrieve video frames efficiently. The proposed procedure poses many challenges. Some current successful scheme transfers each video frame to a color string using systems have been reported in the literatures [8~16]. straightforward rules. Subsequently, using the color strings to Conventional schemes, for example, pixel based compare the images, namely color strings comparison.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\121.pdf"
+  },
+  "19": {
+    "title": "untitled",
+    "author": "Unknown Author",
+    "abstract": "descriptors is a difficult problem, due to the lack of reliable turestoyieldsimilaritymeasuresthatestimatemusicwithsim- methodsforextractingmelody,harmony,rhythm,andothersuch ilartimbreandtempoassimilar.Suchsimilaritymeasuresfre- descriptors from unstructured audio signals. In this paper, we quentlycorrespondwellwithgenrelabels,sothesemethodsare presentanovelapproachtomelody-basedretrievalinaudiocol- usedforsearchingandorganizingmusiccollectionsaccording lections.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\122.pdf"
+  },
+  "20": {
+    "title": "cently, it has been shown that the raw accuracy of query of a QBE system for a given music collection. Indeed,",
+    "author": "example systems can be enhanced by considering pri- music collections are usually organized and structured at",
+    "abstract": "managingmediumtolargescalemusicalcollections. Thispaperintroducesanewmethodforimprovingthe An efficient alternative is to consider post-processing accuracyinmediumscalemusicsimilarityproblems. Re- approaches exploiting the regularities found in the results cently, it has been shown that the raw accuracy of query of a QBE system for a given music collection.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\123.pdf"
+  },
+  "21": {
+    "title": "Efficient Index-Based Audio Matching",
+    "author": "Article in IEEE Transactions on Audio Speech and Language Processing \u00b7 March",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\124.pdf"
+  },
+  "22": {
+    "title": "Keynote Presentation",
+    "author": "Remco Veltkamp",
+    "abstract": "attentioninrecentyears. Determiningtheemotionalcon- This paper surveys the state of the art in automatic emo- tentofmusicaudiocomputationallyis,bynature,across- tion recognition in music. Music is oftentimes referred disciplinaryendeavorspanningnotonlysignalprocessing to as a \u201clanguage of emotion\u201d [1], and it is natural for us andmachinelearning,butalsorequiringanunderstanding tocategorizemusicintermsofitsemotionalassociations. ofauditoryperception,psychology,andmusictheory.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\125.pdf"
+  },
+  "23": {
+    "title": "ismir2002Fingerprint.PDF",
+    "author": "haitsma",
+    "abstract": "mechanism to establish the perceptual equality of two multimedia Imagine the following situation. You\u2019re in your car, listening to objects: not by comparing the (typically large) objects themselves, the radio and suddenly you hear a song that catches your attention. but by comparing the associated fingerprints (small by design).",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\126.pdf"
+  },
+  "24": {
+    "title": "Y:/__Publications/__2012_GroscheMueller_Retrieval_ICASSP/paper_finalVersion/2012_GroscheMueller_Retrieval_ICASSP.dvi",
+    "author": "Unknown Author",
+    "abstract": "systems [2, 4], we first summarize these approaches and then de- The general goal of cross-version music retrieval is to identify all scribeourcontributions. versions of a given piece of music by means of a short query au- In [4], a matching procedure is described that allows for a diofragment. Tospeeduptheretrievalprocess,hashingtechniques fragment-basedretrievalofallaudioexcerptsmusicallyrelatedtoa havebeenproposed,wheretheaudiomaterialissplitupintosmall givenqueryaudiofragment.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\127.pdf"
+  },
+  "25": {
+    "title": "AUTOMATICASSESSMENTOFSINGERTRAITSINPOPULARMUSIC: GENDER,AGE,HEIGHTANDRACE",
+    "author": "Unknown Author",
+    "abstract": "automatic determination of age in full realism is challeng- We investigate fully automatic recognition of singer traits, ingeveninclean,spokenlanguage[16]. Ontheotherhand, i.e., gender, age, height and \u2018race\u2019 of the main performing itiswellknownthatageaswellasbodyshape(heightand artist(s)inrecordedpopularmusic.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\128.pdf"
+  },
+  "26": {
+    "title": "An Online Information Retrieval Systems by Means of Artificial Neural Networks",
+    "author": "Unknown Author",
+    "abstract": "Information Retrieval System (IRS) techniques, which are briefly summarized and classified. An IRS prototype has been developed with a technique based on Artificial Neural Networks which are different from those normally used for this type of applications, that is, the self-organising networks (SOM). Two types of network (radial response and multilayer perceptron) are analyzed and tested.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\129.pdf"
+  },
+  "27": {
+    "title": "AnAnalysisofQueryDifficultyforInformationRetrievalin theMedicalDomain",
+    "author": "Unknown Author",
+    "abstract": "leavingthehospital,apatientreceivesadischargesummary. This Wepresentapost-hocanalysisofabenchmarkingactivityforin- describesthediagnosisandthetreatmentthattheyreceivedinthe formationretrieval(IR)inthemedicaldomaintodetermineifper- hospital. The first task considered in CLEF eHealth aims at ex- formanceforquerieswithdifferentlevelsofcomplexitycanbeas- tracting names of disorders from the discharge summaries, while sociatedwithdifferentIRmethodsortechniques.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\13.pdf"
+  },
+  "28": {
+    "title": "Gender Fairness in Information Retrieval Systems",
+    "author": "Amin Bigdeli",
+    "abstract": "Recentstudieshaveshownthatitispossibleforstereotypicalgen- specificallywithinthecontextofinformationretrieval,biasedre- derbiasestofindtheirwayintorepresentationalandalgorithmic trievalmethodscanexacerbatebiasesbyexposinguserstoasetof aspectsofretrievalmethods;hence,exhibitthemselvesinretrieval biaseddocumentsinresponsetouserqueries.Suchbiasescanhave outcomes.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\130.pdf"
+  },
+  "29": {
+    "title": "Improving Efficiency and Robustness of Transformer-based Information Retrieval Systems",
+    "author": "Edmon Begoli",
+    "abstract": "Thistutorialfocusesonboththeoreticalandpracticalaspectsof Thistutorialisbasedonourexperiencewithdevelopinginforma- improvingtheefficiencyandrobustnessoftransformer-basedap- tionretrieval(IR)systemsoversomeofthelargestmedicalnar- proaches,sothatthesecanbeeffectivelyusedinpractical,high- rativedatasets(VA\u2019s8.5billionmedicalnotesdataset[4]),anda scaleandhigh-volumeinformationretrieval(IR)scenarios.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\131.pdf"
+  },
+  "30": {
+    "title": "Product Information Browsing Support System Using Analytic Hierarchy Process",
+    "author": "Weijian Li, Masato Kikuchi, Tadachika Ozono",
+    "abstract": "Large-scalee-commercesitescancollectandanalyzealargenum- is advantageous to consumers in many aspects, for example, e- berofuserpreferencesandbehaviors,andthuscanrecommend commerceensuresthatconsumerstodayhavemorechoicethan highlytrustedproductstousers.However,itisverydifficultfor before,italsocomeswithsomechallenges.Forexample,itcan individualsornon-corporategroupstoobtainlarge-scaleuserdata.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\132.pdf"
+  },
+  "31": {
+    "title": "Research on the Application of Computer Big Data Retrieval Technology and Cloud Computing in Internet Course",
+    "author": "Peisheng Li",
+    "abstract": "ThecurrentInternetteachingresourceretrievalsystemhasprob- States,takingtheleadinreformingandpromotingtheteaching lemssuchaslargeinformationretrievalerrorsandlowworkef- model.However,duetothelatestartofthedevelopmentofsome ficiency.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\133.pdf"
+  },
+  "32": {
+    "title": "Arabic Word Sense Disambiguation for Information Retrieval",
+    "author": "Unknown Author",
+    "abstract": "priorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org. \u00a92022AssociationforComputingMachinery. 2375-4699/2022/01-ART69$15.00 https://doi.org/10.1145/3510451 ACMTrans.AsianLow-Resour.Lang.Inf.Process.,Vol.21,No.4,Article69.Publicationdate:January2022.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\134.pdf"
+  },
+  "33": {
+    "title": "Architecture of Knowledge Extraction System based on NLP",
+    "author": "Wei Zhuang",
+    "abstract": "Knowledgeextractionistoextractusefulstructuredtextinforma- atransformerbidirectionalcodedrepresentation(BERT)basedon tionfrommessyfreetext.Underthecurrentmassiveinformation publicsecurityChineserelationextractionalgorithm,whichcan background,ithasattractedextensiveattention.Thispaperana- effectivelyminesecurityinformation.Themainmodelstructure lyzestheconceptofNLPandtheapplicationprocessofNLPal- islaminatedtransformer[2].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\135.pdf"
+  },
+  "34": {
+    "title": "Information retrieve; TF-IDF Algorithm; Improved;Resource;",
+    "author": "the retrieval system from being biased towards long",
+    "abstract": "resources are also mixed into people's search results. Therefore, I As the Internet develops faster and faster, resources are becoming propose a new TF-IDF information retrieval improved algorithm more and more abundant. It is more and more difficult for people to improve the information retrieval systems, which greatly to retrieve the information they need from a large number of improves the accuracy and efficiency of resource retrieval. resources.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\136.pdf"
+  },
+  "35": {
+    "title": "Workshop on Fairness, Accountability, Confidentiality, Transparency, and Safety in Information Retrieval (FACTS-IR)",
+    "author": "Alexandra Olteanu, Jean Garcia-Gathright, Maarten de Rijke, and Michael D. Ekstrand",
+    "abstract": "Thisworkshopexploreschallengesinresponsibleinformationre- consumptionpatterns,butalsothesocialinteractions,affecting trievalsystemdevelopmentanddeployment.Thefocusisonde- whoismorevisibleandwhen[4,14]. terminingactionableresearchagendasonfivekeydimensionsof Recognitionofthesocialandpoliticalimplicationsofinforma- responsibleinformationretrieval:fairness,accountability,confiden- tionretrievalgoesbackatleasttwodecades[8].Morerecentem- tiality,transparency,andsafety.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\137.pdf"
+  },
+  "36": {
+    "title": "<ccs2012><concept><concept_id>10002951.10003227.10003245</concept_id><concept_desc>Information systems~Mobile information processing systems</concept_desc><concept_significance>500</concept_significance></concept></ccs2012>",
+    "author": "Minno Dekassan Alberic",
+    "abstract": "measuring the retrieval systems using a test collection consisting The information retrieval accessed globally is a vital productivity of a document corpus, topics or queries, and relevance judgment. boost for most organization. However, the outcome of information The test collection makes it possible for scoring the IR systems\u201f retrieval system evaluation does not agree with the real user\u201fs performance using effectiveness metrics. With the scores, the IR satisfaction.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\138.pdf"
+  },
+  "37": {
+    "title": "Dynamic Cluster-based Retrieval and Discovery for Biomedical Literature",
+    "author": "Michael Segundo Ortiz, Heejun Kim, Mengqian Wang, Kazuhiro Seki, and Javed Mostafa",
+    "abstract": "Duetoincreasedspecializationandexperimentation,thevolume MichaelSegundoOrtiz,HeejunKim,MengqianWang,KazuhiroSeki,andJaved Mostafa.2019.DynamicCluster-basedRetrievalandDiscoveryforBiomed- ofbiomedicalliteratureisrapidlyincreasing,wherethecurrent icalLiterature.In10thACMInternationalConferenceonBioinformatics, modalitiesofsearchandretrievalsystemcannolongersupport ComputationalBiologyandHealthInformatics(ACM-BCB\u201919),September effectiveandefficientknowledgediscovery.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\139.pdf"
+  },
+  "38": {
+    "title": "Microsoft Word - esair04s-chiruzzo",
+    "author": "Cindy",
+    "abstract": "not be able to accurately specify which concepts she is looking Current Information Retrieval systems generally search for. For example, a user might enter the query \u201camerican civilian documents using a keywords model, which is often not expressive and afghan solider\u201d, but as the word order does not matter in a enough for the user.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\14.pdf"
+  },
+  "39": {
+    "title": "or maintained. Traceability links are often created manually approach for relating requirements and code. We also applied",
+    "author": "using commit ids or retrospectively by using information IR-based approaches retrospectively. We compared the links",
+    "abstract": "low and understand the relationships between various software pares to commit-, IL-, and IR-based approaches for creating engineering artifacts such as requirements and source code. traceability links. In this paper, we report on a case study Comprehensive traceability of software engineering artifacts is in which students applied a commit-, IL-, and the tag-based important to ensure that a software can be further developed or maintained.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\140.pdf"
+  },
+  "40": {
+    "title": "An Interactive Image Retrieval Approach to Searching for Images on Social Media",
+    "author": "Manali Gaikwad and Orland Hoeber",
+    "abstract": "Searchingforimagespostedwithinsocialmediaservicessuchas portant,embeddedmedia(e.g.,images)arebecomingincreasingly Twitterreliesonmatchingtextualqueriestothecontentsofthe popular.Themethodsforsearchingwithintheimagecontentare poststhatincludetheimages.Unfortunately,socialmediaposts notwellsupportedwithinsocialmediaservicesthemselves,nor maynotalwaysprovideaccurateormeaningfuldescriptionsofthe within other interactive search and exploration tools [7].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\141.pdf"
+  },
+  "41": {
+    "title": "A Hybrid Retrieval-Generation Neural Conversation Model",
+    "author": "Liu Yang [1]1 Junjie Hu2 Minghui Qiu3 Chen Qu 1 Jianfeng Gao4 W. Bruce Croft1 Xiaodong Liu4 Yelong Shen5 Jingjing Liu4",
+    "abstract": "Intelligentpersonalassistantsystemsthatareabletohavemulti- conversationsystemshaveattractedtheattentionofresearchers turnconversationswithhumanusersarebecomingincreasingly in the Information Retrieval (IR), Natural Language Processing popular.Mostpreviousresearchhasbeenfocusedonusingeither (NLP)andMachineLearning(ML)communities,leadingtoarapidly retrieval-basedorgeneration-basedmethodstodevelopsuchsys- growingfieldreferredtoasConversationalAI[7]. tems.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\142.pdf"
+  },
+  "42": {
+    "title": "Proceedings Template - WORD",
+    "author": "End User Computing Services",
+    "abstract": "In this paper, we have presented neuro-fuzzy based simulated 2. EXISTING APPROACH: SEARCH model to integrate the search engines, to optimize the working ENGINE WORKING PATTERN pattern of search engines. The combined approach of neural network and fuzzy logic makes proposed approach attractive Most of the search engines working pattern are based ranking of because ability of neural network to represent the best possible indexed term, automation (automatic) of term matching pattern.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\15.pdf"
+  },
+  "43": {
+    "title": "iui_psycho-cameraready",
+    "author": "Oswald Barral",
+    "abstract": "Peripheral physiological signals, as obtained using electro- tions [13], direct a search using visual interfaces [24, 29], dermalactivityandfacialelectromyographyoverthecorruga- orsimplygatherrelevanceassessmentsfromusersforevalu- torsuperciliimuscle,areexploredasindicatorsofperceived ationpurposes. relevanceininformationretrievaltasks.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\151.pdf"
+  },
+  "44": {
+    "title": "User Activity Patterns During Information Search",
+    "author": "MICHAELJ.COLE,CHATHRAHENDAHEWA,NICHOLASJ.BELKIN",
+    "abstract": "Tocopyotherwise,torepublish,topostonservers,toredistributetolists,ortouseanycomponentofthis work in other works requires prior specific permission and/or a fee. Permissions may be requested from Publications Dept., ACM, Inc., 2 Penn Plaza, Suite 701, New York, NY 10121-0701 USA, fax +1 (212) 869-0481,orpermissions@acm.org. (cid:2)c 2015ACM1046-8188/2015/03-ART1$15.00 DOI:http://dx.doi.org/10.1145/2699656 ACMTransactionsonInformationSystems,Vol.33,No.1,Article1,Publicationdate:March2015.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\152.pdf"
+  },
+  "45": {
+    "title": "InformationRetrievalasCardPlaying:AFormalModelfor OptimizingInteractiveRetrievalInterface",
+    "author": "Unknown Author",
+    "abstract": "particularignoresthe actionsthat a user can take when in- We proposea novel formalmodelfor optimizinginteractive teracting with an interface displaying search results (e.g., information retrieval interfaces. To model interactive re- faceted browsing).",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\153.pdf"
+  },
+  "46": {
+    "title": "sp238-liu.dvi",
+    "author": "Unknown Author",
+    "abstract": "istheaverageofthenormalizeddistancesofasetT ofnounsfrom Nouns are moreimportant thanother partsof speech ininforma- themiddle of their sentences asdefned byEq. 1. InEq. 1, |T| tion retrieval and aremore often found near the beginning or the means thecardinality of set T (Inthispaper, except asexplicitly end of sentences. In this paper, we investigate the effects of re- noted,|x|meansabsolutevalueofx). wardingtermsbasedontheirlocationinsentencesoninformation retrieval.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\154.pdf"
+  },
+  "47": {
+    "title": "Enhancing Mathematics Information Retrieval",
+    "author": "Martin L\u00ed\u0161ka",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\155.pdf"
+  },
+  "48": {
+    "title": "DynamicInformationRetrieval:TheoreticalFrameworkand Application",
+    "author": "Unknown Author",
+    "abstract": "of retrieval with information needs specialized or general- Theoretical frameworks like the Probability Ranking Prin- ized over time [35]. Throughout, a user may broadcast sig- ciple and its more recent Interactive Information Retrieval nalsofsearchintentthatcanhelpanIRsystemtoimprove varianthaveguidedthedevelopmentofrankingandretrieval retrieval.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\156.pdf"
+  },
+  "49": {
+    "title": "ImprovingThroughputofaPipelineModelIndexer",
+    "author": "Unknown Author",
+    "abstract": "another, and these can be done concurrently. This leads to There are many competing models for the indexing process our (cid:12)nal research question: \\How much parallelism can be ofaninformationretrievalsystem,oneofwhichisapipeline exploited by the indexing process?\" basedmodel. Informationretrievalisalsoaninherentlypar- allel process, indexing one document is independent of an- other document. A pipeline model allows for easy exper- 2.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\157.pdf"
+  },
+  "50": {
+    "title": "Visualized Related Topics (VRT) System for Health Information Retrieval",
+    "author": "Unknown Author",
+    "abstract": "terms. For example, the query expansion technology in the PubMed To help bridge the gap between consumer user\u2019s vocabulary and system will automatically add related MeSH terms to user\u2019s query. controlled vocabulary used to index health information, in this Continuous updates to reflect newly added user query terms is one demo we implemented a Visualized Related Topics (VRT) browser limitation for this approach. In addition, a common concern for system.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\16.pdf"
+  },
+  "51": {
+    "title": "SpecificPersonRetrievalviaIncompleteTextDescription",
+    "author": "Unknown Author",
+    "abstract": "Searching for specific persons from surveillance videos cap- tured by different cameras, is a key yet under-addressed User-providedattributes: challenge in multimedia system. Related person retrieval (cid:256)PersonalFemale(cid:257) 1 works mainly focus on searching person by visual appear- (cid:256)UpperBodyRed(cid:257) 1 ance,knownaspersonre-identification.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\17.pdf"
+  },
+  "52": {
+    "title": "ANovelImageRetrievalSystemwithReal-TimeEye Tracking",
+    "author": "Unknown Author",
+    "abstract": "ing on the query modes, image retrieval can be roughly di- Relevancefeedbackisoneofapproachtoimprovetheperfor- videdintotwocategories: text-basedapproachesandcontent- manceofcontent-basedimageretrievalsystem,andimplicit based methods. The text-based approaches associate key- feedback approaches, which gather users\u2019 feedback by bio- words with each image in advance and users can search metricdevices(e.g. eyetracker),areextensivelyinvestigated images with keywords.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\173.pdf"
+  },
+  "53": {
+    "title": "User-DrivenSystem-MediatedCollaborativeInformation Retrieval",
+    "author": "Unknown Author",
+    "abstract": "Most of the previous approaches surrounding collaborative In an information retrieval (IR) process, there are sev- information retrieval (CIR) provide either a user-based me- eral ways to improve retrieval performance or e\u21b5ectiveness.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\174.pdf"
+  },
+  "54": {
+    "title": "OntheInformationDifferencebetweenStandardRetrieval Models",
+    "author": "Unknown Author",
+    "abstract": "or to rank similar documents in a very different order, and Recentworkintroducedaprobabilisticframeworkthatmea- yet receive the same score from an evaluation metric, even sures search engine performance information-theoretically. a diversity metric such as ERR-IA [3].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\175.pdf"
+  },
+  "55": {
+    "title": "Proceedings Template - WORD",
+    "author": "End User Computing Services",
+    "abstract": "related documents to answer a user query is reduced to the one in Document retrieval is aimed at searching relevant documents in response to answer user query. To do this task, algorithms of locality, e.g. method of mutual subspace clustering [1], or local topology preserving indexing [2]. document clustering play an important role.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\176.pdf"
+  },
+  "56": {
+    "title": "Whentextualandvisualinformationjoinforcesfor multimediaretrieval",
+    "author": "Unknown Author",
+    "abstract": "anincreasinglypopularmeantoconveyinformation,dueto Currently,popularsearchenginesretrievedocumentsonthe theeaseofbothcapturingandsharingthem: ithasbecome basisoftextinformation. However,integratingthevisualin- very common to record a video on a mobile phone and to formationwiththetext-basedsearchforvideoandimagere- upload it to a social sharing platform such as YouTube. trievalisstillahotresearchtopic.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\177.pdf"
+  },
+  "57": {
+    "title": "Microsoft Word - Online Access Panel for IIR.doc",
+    "author": "kerndr",
+    "abstract": "Addressing a specific user group with special skills or We propose an online access panel to support the evaluation informational settings is however not reliably possible, and process of Interactive Information Retrieval (IIR) systems - called therefore its benefit for evaluating specific IIR systems and tasks IIRpanel. By maintaining an online access panel with users of IIR seems to be very low.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\178.pdf"
+  },
+  "58": {
+    "title": "The relevance of a document to the query of a user is calculated query has a logical value 1 if the word exists in the document (or",
+    "author": "evaluating the logical value of the query as either or 0. A its representation) and logical value if it does not. After all terms",
+    "abstract": "relevance. Three models supporting information retrieval were The personalization process can either be focused on individuals covered, with a particular emphasis on their mode of and their interaction with documents, or on the identification of representation of the documents and their processing algorithms. shared patterns of behavior and the segmentation of the user population into groups of common interests.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\179.pdf"
+  },
+  "59": {
+    "title": "and text mining, identifying word meanings characterized spotlight due to the unprecedented growth in both medical",
+    "author": "domains. The meaning of words is identi(cid:12)ed by using datavolumesandbiomedicalliteratureoverthelastdecade.",
+    "abstract": "Thispaperintroducesadomainspeci(cid:12)cknowledgediscovery Inthe(cid:12)eldsofinformationretrievalandtextmining,knowl- technique that is applicable for both information retrieval edge discovery from medical documents has come into the and text mining, identifying word meanings characterized spotlight due to the unprecedented growth in both medical by domains. The meaning of words is identi(cid:12)ed by using datavolumesandbiomedicalliteratureoverthelastdecade.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\18.pdf"
+  },
+  "60": {
+    "title": "are formulated in the form of query languages supported",
+    "author": "the structured retrieval systems. Nevertheless, informa- Design, Theory",
+    "abstract": "Looking at the amount of structured contents available on H.3.3[InformationStorageandRetrieval]: Information thewebinrecentyears,wecanbecertainthattheneedsof Search and Retrieval\u2014query formulation, search process structuredretrievalsystemsaregettingmoreprominent. In ordertoaccessthestructuredcontents,informationrequests GeneralTerms are formulated in the form of query languages supported by the structured retrieval systems.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\180.pdf"
+  },
+  "61": {
+    "title": "A case for improved evaluation of query difficulty prediction",
+    "author": "Falk Scholer, Steven Garcia",
+    "abstract": "metric (usually Average Precision) is calculated. Finally, a Querydifficultypredictionaimstoidentify,inadvance,how correlation coefficient is calculated between these two sets wellaninformationretrievalsystemwillperformwhenfaced of numbers, to quantify the strength of the relationship withaparticularsearchrequest. Thecurrentstandardeval- betweenthepredictedandactualsystemperformance.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\188.pdf"
+  },
+  "62": {
+    "title": "Building knowledge base for Vietnamese information retrieval",
+    "author": "Thanh C. Nguyen, Hai M. Le, Tuoi T. Phan",
+    "abstract": "developing vnKBs to use them in various applications on natural At present, Vietnamese knowledge base (vnKB) is one of the most language processing area. However there are several difficulties of important focuses of Vietnamese researchers because of its vnKB development task according to those researches. First of all, applications in wide areas such as Information Retrieval (IR), there is not existent a common vnKB which any system and Machine Translation (MT) etc.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\189.pdf"
+  },
+  "63": {
+    "title": "Image-TextCross-ModalRetrievalviaModality-Specific FeatureLearning",
+    "author": "Unknown Author",
+    "abstract": "ity. Keyword-to-image search is a pseudo\u201ccross-modal\u201dis- Cross-modalretrievalextendstheabilityofsearchenginesto sue, because the query keywords are matched withtags an- dealwiththemassivecross-modaldata. Thegoalofimage- notated to the images, not the images themselves.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\19.pdf"
+  },
+  "64": {
+    "title": "Optimizing language model information retrieval system with expectation maximization algorithm",
+    "author": "Miller et al. (1999).",
+    "abstract": "and Croft (1998) proposed a language modeling framework which opens a new point of view in IR. In this approach, they gave up the model of Statistical language modeling (SLM) has relevance; instead, they treated query generation been used in many different domains for dec- as random sampling from every document model. ades and has also been applied to information The retrieval results were based on the probabili- retrieval (IR) recently.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\190.pdf"
+  },
+  "65": {
+    "title": "Topic structure for information retrieval",
+    "author": "Jiyin He",
+    "abstract": "coherence measure against this ground truth. The results In my research, I propose a coherence measure, with the show that the coherence score can reflect the varying num- goal of discovering and using topic structures within and berofclusterswithinthedataset. Ontopofthat,theappli- between documents, of which I explore its extensions and cationsofcoherencescoresofar[1\u20133]showthatitcaneffec- applications in information retrieval. tively capturethetopicstructure.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\191.pdf"
+  },
+  "66": {
+    "title": "Library",
+    "author": "Quaid-i-Azam",
+    "abstract": "proposeretrievalsystemsbasedonthemelodicsimilarity[13, Music retrieval systems for Western tonal music digital li- 10]. Limitations of such systems have been experimented brarieshavetoconsiderrhythmic,timbral,melodicandhar- whenconsideringpolyphonicmusic[16]. Furthermore,com- monicinformation. Mostexistingretrievalsystemsonlytake plexities of algorithms handling polyphony prevent the ap- into account melodies. Melody comparison may induce er- plication to large databases [11].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\192.pdf"
+  },
+  "67": {
+    "title": "EvaluationinMusicInformationRetrieval",
+    "author": "Unknown Author",
+    "abstract": "need for rigorous scientific evaluations, and several efforts have set out to develop andprovidetheinfrastructure,technologyandmethodologiesneededtocarryout theseevaluations.Thecommunityhasenormouslygainedfromtheseevaluationfo- rums,butwehavereachedapointwherewearestuckwithevaluationframeworks that do not allow us to improve as much and as well as we want.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\193.pdf"
+  },
+  "68": {
+    "title": "WebInformationRetrievalforHealthProfessionals",
+    "author": "Unknown Author",
+    "abstract": "System(WebIRS),whichisdesignedtoassistthehealthcare happening, so as to facilitate decision makings [1]. In par- professionals to obtain up-to-date medical knowledge and ticular within the medical field, knowledge is important to information via the World Wide Web (WWW).",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\194.pdf"
+  },
+  "69": {
+    "title": "UsingCrowdLoggerforInSituInformationRetrieval SystemEvaluation",
+    "author": "Unknown Author",
+    "abstract": "and to upload data to a server privately [3]. We describe Amajorhurdlefacedbymanyinformationretrievalresearch- thesysteminmoredepthinsection3anddemonstratehow ers\u2014especiallyinacademia\u2014isevaluatingretrievalsystems it can be used for the evaluation of retrieval systems in the inthewild. Challengesincludetappingintolargeuserbases, wildinSection4. First,weprovidesomebackgroundonthe collectinguserbehavior,andmodifyingagivenretrievalsys- three challenges we consider, how CrowdLogger addresses tem.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\195.pdf"
+  },
+  "70": {
+    "title": "Survey Paper on Information Retrieval Algorithms and Personalized Information Retrieval Concept",
+    "author": "Parul Kalra Bhatia",
+    "abstract": "Personalized Information Retrieval systems (PIR) are of great RETRIEVAL ALGORITHMS. need now a day. With growing size of database & requirement of precise data, PIR are of great importance. But this area is 2.1 Boolean algorithm still being under research for the best methodology of This is the basic model of information retrieval. Boolean searching.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\196.pdf"
+  },
+  "71": {
+    "title": "conclusion and prospects.",
+    "author": "the sense of words) aims to correct the problems of the",
+    "abstract": "In the context of arabic Information Retrieval Systems (IRS) representation to calculate the semantic distance or the guided by arabic ontology and to enable those systems to better semantic similarity between the compared words[1]. respond to user requirements, this paper aims to representing According to Sanderson [2] the successful of documents and queries by the best concepts extracted from disambiguation improves the performance of the IRS, Arabic Wordnet.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\197.pdf"
+  },
+  "72": {
+    "title": "Query Expansion in Information Retrieval Systems using a Bayesian Network-Based Thesaurus",
+    "author": "Unknown Author",
+    "abstract": "i.teh.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\198.pdf"
+  },
+  "73": {
+    "title": "Improving Bug Localization using Structured Information Retrieval",
+    "author": "Ripon K. Saha, Matthew Lease, Sarfraz Khurshid, and Dewayne E. Perry",
+    "abstract": "particularly for large-scale systems. To address this, natural comprisethedocumentcollection.IRtechniquesthenrankthe language information retrieval techniques are increasingly being documents by predicted relevance, returning a ranked list of used to suggest potential faulty source files given bug reports. candidatesourcefileswhichmaycontainthebug.Lukinsetal.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\199.pdf"
+  },
+  "74": {
+    "title": "BiTe-REx: An Explainable Bilingual Text Retrieval System in the Automotive Domain",
+    "author": "Viju Sudhi",
+    "abstract": "Tosatiatethecomprehensiveinformationneedofusers,retrieval Theinformationneedofauserisusuallyexpressedintheirmother systemssurpassingtheboundariesoflanguageareinevitableinthe tonguealthoughtheycanspeakandsearchforinformationindif- presentdigitalspaceinthewakeofanever-risingmultilingualism. ferentlanguages.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\2.pdf"
+  },
+  "75": {
+    "title": "Spoken content retrieval",
+    "author": "Unknown Author",
+    "abstract": "and retrieving spoken content based on the audio rather than T ODAYtheInternethasbecomeaneverydaypartofhuman text descriptions. This potentially eliminates the requirement of producing text descriptions for multimedia content for indexing life. Internet content is indexed, retrieved,searched,and and retrieval purposes, and is able to precisely locate the exact browsedprimarilybasedontext,andthesuccessofthesecapa- time the desired information appears in the multimedia.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\20.pdf"
+  },
+  "76": {
+    "title": "mechanisms are not providing the information according to preferences or interests.",
+    "author": "implements an intelligent multi-agent model which is a combination of",
+    "abstract": "domain therefore it becomes a huge challenge for researchers to retrieve useful information on the World Wide Web. In the traditional Information Retrieval systems users are not able to get semantic description of the information needed by them, so Intelligent Information Retrieval (IIR) systems are used to find out the more relevant information\u2019s. In this paper we present a brief survey of Intelligent Information Retrieval Systems and Intelligent agent models based on semantic web and ontology.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\200.pdf"
+  },
+  "77": {
+    "title": "latedness between the sentence and the table to define the",
+    "author": "realizing S is related to the table, the following in- notion of relevance.",
+    "abstract": "a huge amount of information embedded within other web Many modern knowledge bases are built by extracting in- structures, such as web tables. formation from millions of web pages. Though existing ex- Several studies [4, 5, 6] have been conducted to extract traction methods primarily focus on web pages\u2019 main text, information in web tables. Dong et al.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\21.pdf"
+  },
+  "78": {
+    "title": "COVID-19 information retrieval with deep-learning based semantic search, question answering, and abstractive summarization",
+    "author": "Andre Esteva",
+    "abstract": "summarization \u2709 AndreEsteva 1,3 ,AnupritKale1,3,RomainPaulus1,KazumaHashimoto1,WenpengYin1,DragomirRadev 1,2andRichardSocher1 TheCOVID-19global pandemic hasresulted ininternational efforts tounderstand, track, and mitigatethedisease,yieldinga significantcorpus ofCOVID-19 andSARS-CoV-2-related publications across scientific disciplines. Throughout 2020,over 400,000 coronavirus-relatedpublicationshavebeencollectedthroughtheCOVID-19OpenResearchDataset.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\214.pdf"
+  },
+  "79": {
+    "title": "<ccs2012><concept><concept_id>10010147.10010178.10010179.10003352</concept_id><concept_desc>Computing methodologies~Information extraction</concept_desc><concept_significance>100</concept_significance></concept></ccs2012>",
+    "author": "Meng Tian",
+    "abstract": "make an inquiry. The topics of inquiry can be varied ranging from Information service is an important assistive tool in the knowledge a location of an attraction site to a police station or even sharing process. The knowledge sharing process covers a wide information about a bus route. The service allows the users to gain range of operations ranging from a course registration process to access to the information which leads to the satisfactory of the flight ticket buying.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\215.pdf"
+  },
+  "80": {
+    "title": "main.dvi",
+    "author": "Unknown Author",
+    "abstract": "baselinesoverseveraldatacollections. Thechoiceofbaseline Developingeffectiveinformationretrievalmodelshasbeena methods and data collections varies based on the resources long standing challenge in Information Retrieval (IR), and available for each researcher. As a result, there are many significant progresses have been made over the years. With important IR basic research questions that remain unan- theincreasiqngnumberofdevelopedretrievalfunctionsand swered.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\216.pdf"
+  },
+  "81": {
+    "title": "ContextualSupportforCollaborativeInformationRetrieval",
+    "author": "Unknown Author",
+    "abstract": "fore,unlikeIndividualInformationRetrieval(IIR),CIRnot Recent research shows that Collaborative Information Re- only includes search activities, but also involves a signifi- trieval(CIR),inwhichtwoormoreuserscollaborateonthe cant amount of team collaboration such as sharing visited same search task, has become increasingly popular. The information and communicating with partners (i.e., chat) presence of both search and collaboration behaviors makes [19, 28].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\217.pdf"
+  },
+  "82": {
+    "title": "Proceedings Template - WORD",
+    "author": "End User Computing Services",
+    "abstract": "Contemporary information techniques and services offered by the Information Retrieval system and require substantial Natural Internet are going through the dilemma of determining and Language Processing techniques to offer a precise answer to a managing an increasing amount of textual information, to which natural language question. ingress is often difficult.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\218.pdf"
+  },
+  "83": {
+    "title": "DeepLearningforInformationRetrieval",
+    "author": "Unknown Author",
+    "abstract": "mation retrieval and natural language processing with deep learning technologies being successfully applied into almost alloftheirmajortasks. Thekeytothesuccessofdeeplearn- ing is its capability of accurately learning distributed rep- resentations (vector representations or structured arrange- ment of them) of natural language expressions such as sen- tences, and effectively utilizing the representations in the tasks.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\219.pdf"
+  },
+  "84": {
+    "title": "ananalysisworkflow.Theoverallanalysistaskisperformed",
+    "author": "the real-time data stream analysis system and visualizes",
+    "abstract": "challenges:first,theonlineanalysisofcontinuousdatastreams etc.). Automatic analysis systems obviate the necessity to toidentifycharacteristiceventsandsecond,advancedretrieval manuallyconstructthesedatasets[4]\u2013[6]ortobuymanually in video collections and/or event data that help game analysts generated datasets from commercial providers like Opta [7] to search for characteristic video scenes. For both challenges, dedicated big data stream processing and retrieval systems or STATS [8].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\22.pdf"
+  },
+  "85": {
+    "title": "ANewReadabilityMeasureforWebDocumentsandits EvaluationonanEffectiveWebSearchEngine",
+    "author": "Unknown Author",
+    "abstract": "In this study, we propose a readability measure for Web Asinformationrequirementsofusersbecomeincreasingly documentsandaninformationretrievalsystemthatconsid- diverse and complicated, information retrieval systems that ers readability. Previous information retrieval systems aim consider new criteria, including complexity [7], freshness to identify documents that are relevant to a given query; [11], and readability [21, 16], are being introduced.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\220.pdf"
+  },
+  "86": {
+    "title": "AWeb-basedInformationSystem forFinancialReportAnalysisandVisualization F10K:",
+    "author": "Unknown Author",
+    "abstract": "sistpeopletodiscovermeaningfulinsightswithinlargeamountsof Inthisdemonstration,wepresentFIN10K,aweb-basedinformation textualinformationinfinance. systemthatfacilitatestheanalysisoftextualinformationinfinancial reports. Theproposedsystemhasthreemaincomponents: (1)a 10-KCorpus,includinganinvertedindexoffinancialreportson Form10-K,severalnumericalfinancemeasures, andpre-trained wordembeddings;(2)aninformationretrievalsystem;and(3)two datavisualizationsoftheanalyzedresults.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\221.pdf"
+  },
+  "87": {
+    "title": "untitled",
+    "author": "Unknown Author",
+    "abstract": "descriptors is a difficult problem, due to the lack of reliable turestoyieldsimilaritymeasuresthatestimatemusicwithsim- methodsforextractingmelody,harmony,rhythm,andothersuch ilartimbreandtempoassimilar.Suchsimilaritymeasuresfre- descriptors from unstructured audio signals. In this paper, we quentlycorrespondwellwithgenrelabels,sothesemethodsare presentanovelapproachtomelody-basedretrievalinaudiocol- usedforsearchingandorganizingmusiccollectionsaccording lections.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\222.pdf"
+  },
+  "88": {
+    "title": "cently, it has been shown that the raw accuracy of query of a QBE system for a given music collection. Indeed,",
+    "author": "example systems can be enhanced by considering pri- music collections are usually organized and structured at",
+    "abstract": "managingmediumtolargescalemusicalcollections. Thispaperintroducesanewmethodforimprovingthe An efficient alternative is to consider post-processing accuracyinmediumscalemusicsimilarityproblems. Re- approaches exploiting the regularities found in the results cently, it has been shown that the raw accuracy of query of a QBE system for a given music collection.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\223.pdf"
+  },
+  "89": {
+    "title": "Efficient Index-Based Audio Matching",
+    "author": "Article in IEEE Transactions on Audio Speech and Language Processing \u00b7 March",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\224.pdf"
+  },
+  "90": {
+    "title": "Keynote Presentation",
+    "author": "Remco Veltkamp",
+    "abstract": "attentioninrecentyears. Determiningtheemotionalcon- This paper surveys the state of the art in automatic emo- tentofmusicaudiocomputationallyis,bynature,across- tion recognition in music. Music is oftentimes referred disciplinaryendeavorspanningnotonlysignalprocessing to as a \u201clanguage of emotion\u201d [1], and it is natural for us andmachinelearning,butalsorequiringanunderstanding tocategorizemusicintermsofitsemotionalassociations. ofauditoryperception,psychology,andmusictheory.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\225.pdf"
+  },
+  "91": {
+    "title": "ismir2002Fingerprint.PDF",
+    "author": "haitsma",
+    "abstract": "mechanism to establish the perceptual equality of two multimedia Imagine the following situation. You\u2019re in your car, listening to objects: not by comparing the (typically large) objects themselves, the radio and suddenly you hear a song that catches your attention. but by comparing the associated fingerprints (small by design).",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\226.pdf"
+  },
+  "92": {
+    "title": "Y:/__Publications/__2012_GroscheMueller_Retrieval_ICASSP/paper_finalVersion/2012_GroscheMueller_Retrieval_ICASSP.dvi",
+    "author": "Unknown Author",
+    "abstract": "systems [2, 4], we first summarize these approaches and then de- The general goal of cross-version music retrieval is to identify all scribeourcontributions. versions of a given piece of music by means of a short query au- In [4], a matching procedure is described that allows for a diofragment. Tospeeduptheretrievalprocess,hashingtechniques fragment-basedretrievalofallaudioexcerptsmusicallyrelatedtoa havebeenproposed,wheretheaudiomaterialissplitupintosmall givenqueryaudiofragment.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\227.pdf"
+  },
+  "93": {
+    "title": "AUTOMATICASSESSMENTOFSINGERTRAITSINPOPULARMUSIC: GENDER,AGE,HEIGHTANDRACE",
+    "author": "Unknown Author",
+    "abstract": "automatic determination of age in full realism is challeng- We investigate fully automatic recognition of singer traits, ingeveninclean,spokenlanguage[16]. Ontheotherhand, i.e., gender, age, height and \u2018race\u2019 of the main performing itiswellknownthatageaswellasbodyshape(heightand artist(s)inrecordedpopularmusic.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\228.pdf"
+  },
+  "94": {
+    "title": "DeepLearningforContent-BasedImageRetrieval: AComprehensiveStudy",
+    "author": "Unknown Author",
+    "abstract": "Learningeffectivefeaturerepresentationsandsimilaritymeasures Theretrievalperformanceofacontent-basedimageretrievalsys- are crucial to the retrieval performance of a content-based image temcruciallydependsonthefeaturerepresentationandsimilarity retrieval (CBIR) system. Despite extensive research efforts for measurement,whichhavebeenextensivelystudiedbymultimedia decades, it remains one of the most challenging open problems researchers for decades.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\229.pdf"
+  },
+  "95": {
+    "title": "Interactive Story Maker: Tagged Video Retrieval System for Video Re-creation Service",
+    "author": "Chang-Uk Kwak, Min-Ho Han, Sun-Joong Kim, and Gyeong-June Hahm",
+    "abstract": "Users who want to reuse existing videos and re-create new As the video sharing platform expands, it is becoming more videos need a video retrieval system that searches relevant andmorepopularwithcontentsre-creationbyexistingvideos video clips from a vast amount of video clips. In addition, editingandarrangement.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\23.pdf"
+  },
+  "96": {
+    "title": "Information fusion in content based image retrieval: A comprehensive overview",
+    "author": "Luca Piras",
+    "abstract": "Department of Electrical and Electronic Engineering, University of Cagliari, 09123 Piazza D\u2019armi, Cagliari, Italy",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\230.pdf"
+  },
+  "97": {
+    "title": "An efficient content based image retrieval framework using separable CNNs",
+    "author": "Sunita Rani",
+    "abstract": "textualdescriptionsortags.Overthelastdecade,DeepConvolutionalNeuralNetworks(D-CNN)basedarchitectureshave gained popularity in image retrieval. One major issue with D-CNN is that they are complex, heavy networks with high dimensional features. To overcome this bottleneck, a separable convolutional neural networks based framework has been proposed, which will reduce the complexity of the network.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\231.pdf"
+  },
+  "98": {
+    "title": "A Novel Hybrid Approach for a Content-Based Image Retrieval Using Feature Fusion",
+    "author": "Shahbaz Sikandar, Rabbia Mahum and AbdulMalik Alsalman",
+    "abstract": "high computation costs to retrieve images similar to the user\u2019s query from the database. An annotation-basedtraditionalsystemofimageretrievalisnotcoherentbecausepixel-wisematching ofimagesbringssignificantvariationsintermsofpattern,storage,andangle. TheContent-Based ImageRetrieval(CBIR)methodismorecommonlyusedinthesecases.CBIRefficientlyquantifiesthe likenessbetweenthedatabaseimagesandthequeryimage.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\232.pdf"
+  },
+  "99": {
+    "title": "Content-BasedImageRetrieval:TheoryandApplications",
+    "author": "Unknown Author",
+    "abstract": "ation of large image datasets. In this scenario, it is necessary to develop appropri- ate informationsystemstoefficientlymanagethesecollections. Thecommonestap- proachesusetheso-calledContent-BasedImageRetrieval(CBIR)systems. Basically, these systemstrytoretrieveimagessimilarto auser-definedspecificationorpattern (e.g.,shapesketch,imageexample).Theirgoalistosupportimageretrievalbasedon content properties(e.g., shape, color, texture), usually encoded into feature vectors.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\233.pdf"
+  },
+  "100": {
+    "title": "Content-based image retrieval: A review of recent trends",
+    "author": "Ibtihaal M. Hameed",
+    "abstract": "Received: 18 January 2021 Accepted: 29 April 2021 image sensor, enormous amount of image databases have been created in different kind of applications. These image databases increase the demand to develop *Corresponding author: Sadiq H. Abdulhussain, Department of efficient image retrieval search methods that meet user requirements.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\234.pdf"
+  },
+  "101": {
+    "title": "mir167ss-datta_rev.dvi",
+    "author": "Unknown Author",
+    "abstract": "to organizing images, man has traditionally outperformed The last decade has witnessed great interest in research machines for most tasks. One reason which causes this on content-based image retrieval.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\235.pdf"
+  },
+  "102": {
+    "title": "https://onlinelibrary.wiley.com/doi/10.4218/etrij.2022-0071",
+    "author": "INASP/HINARI",
+    "abstract": "University,Daegu,RepublicofKorea Color, texture, and shape act as important information for images in human 2SchoolofElectronicsEngineering, recognition. For content-based image retrieval, many studies have combined KyungpookNationalUniversity,Daegu, color, texture, and shape features to improve the retrieval performance. How- RepublicofKorea ever,therehavenotbeenmanypowerfulmethodsforcombiningallcolor,tex- Correspondence ture, and shape features.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\236.pdf"
+  },
+  "103": {
+    "title": "From BoW to CNN: Two Decades of Texture Representation for Texture Classification",
+    "author": "Li Liu",
+    "abstract": "challengingproblemsincomputervisionandpatternrecognitionwhichhasattractedextensiveresearchattentionoverseveral decades. Since 2000, texture representations based on Bag of Words and on Convolutional Neural Networks have been extensively studied with impressive performance. Given this period of remarkable evolution, this paper aims to present a comprehensivesurveyofadvancesintexturerepresentationoverthelasttwodecades.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\237.pdf"
+  },
+  "104": {
+    "title": "Image Retrieval Using Convolutional Autoencoder, InfoGAN, and Vision Transformer Unsupervised Models",
+    "author": "Unknown Author",
+    "abstract": "(CBIR), offers an advantageous solution in a variety of applications, including medical, meteorological, searchbyimage,andotherapplications.SuchCBIRsystemsprimarilyusesimilaritymatchingalgorithms tocompareimagecontenttogetmatchedimagesfromdatasets.Theyessentiallymeasurethespatialdistance betweenextractedvisualfeaturesfromaqueryimageanditssimilarversionsinthedataset.Oneofthemost challengingqueryretrievalproblemsisFacialSketched-RealImageRetrieval(FSRIR),whichisbasedon contentsimilaritymatching.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\238.pdf"
+  },
+  "105": {
+    "title": "Video Retrieval System Using Parallel Multi-Class Recurrent Neural Network Based on Video Description",
+    "author": "Unknown Author",
+    "abstract": "in the area of content based information retrieval (CBIR) for informationofframeswithouttakingintoaccountthetemporal imagesandvideosequences.Exponentialincreaseofmultimedia information. data has triggered a cause for managing, storing and retrieving Inourpaper,wepresentthecontentbasedvideoretrievalsys- multimedia contents in convenient and efficient ways.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\24.pdf"
+  },
+  "106": {
+    "title": "On Influential Trends in Interactive Video Retrieval: Video Browser Showdown 2015&#x2013;2017",
+    "author": "Unknown Author",
+    "abstract": "recording, manipulation, storage, and sharing easier than ever researchinautomatedvideoretrieval[3]\u2013[8].Despitethesead- before, thus impacting many areas of life. New video retrieval vances,manyvideoretrievalproblemsarestillchallengingand scenarios emerged as well, which challenge the state-of-the-art can benefit from a human user in the loop. Work on interac- video retrieval approaches.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\25.pdf"
+  },
+  "107": {
+    "title": "https://onlinelibrary.wiley.com/doi/10.1155/2018/4390703",
+    "author": "INASP/HINARI",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\26.pdf"
+  },
+  "108": {
+    "title": "AProbabilisticRankingModelforAudioStreamRetrieval",
+    "author": "Unknown Author",
+    "abstract": "action of audio retrieval is performed online with queries In Audio Stream Retrieval (ASR) systems, clients periodically taken from an audio stream. In particular, we developed queryanaudiodatabasewithanaudiosegmenttakenfromthein- areal-timebroadcastmonitoringsystemthatallowsstations putaudiostreamtokeeptrackoftheflowofthestreamintheorig- to monitor the stability of the actual broadcast and allows inal content sources or to compare two differently edited streams.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\27.pdf"
+  },
+  "109": {
+    "title": "OnEffectivePersonalizedMusicRetrievalbyExploring OnlineUserBehaviors",
+    "author": "Unknown Author",
+    "abstract": "consider the relevance between songs and search keywords, In this paper, we study the problem of personalized text- while largely ignoring user\u2019s personal music preference. In based music retrieval which takes users\u2019 music preferences fact, how an individual perceives a song is very subjective, on songs into account via the analysis of online listening heavily depending on his/her emotional and cultural back- behavioursandsocialtags. Towardsthegoal,anovelDual- ground [30].",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\28.pdf"
+  },
+  "110": {
+    "title": "SearchingforAudiobySketchingMentalImagesofSound",
+    "author": "Unknown Author",
+    "abstract": "Weproposeanewparadigmforsearchingforsoundbyallow- Today\u2019smusicproductionisoverwhelminglybasedonpre- inguserstographicallysketchtheirmentalrepresentationof recordedorlive-generatedsoundmaterial. Thetaskofcom- sound as query.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\29.pdf"
+  },
+  "111": {
+    "title": "VideoCLIP: A Cross-Attention Model for Fast Video-Text Retrieval Task with Image CLIP",
+    "author": "m",
+    "abstract": "Video-textretrievalisanessentialtaskincross-modalinformation textretrievaltaskaswell,whichdirectlyleveragethepre-trained retrieval,i.e.,retrievingrelevantvideosfromalargeandunlabelled CLIPmodeltoencodevideoframesandcorrespondingcaptions. datasetgiventextualqueries.Existingmethodsthatsimplypool Thoughintuitive,directlyapplyingclip-basedmethodsinthe the image features (e.g.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\3.pdf"
+  },
+  "112": {
+    "title": "cantypicallynotbeshared,becauseofrestrictionsimposed unlike MSD; (iii) demographic information about listeners",
+    "author": "intellectual property rights. inananonymousway,unlikeMSD;and(iv)additionalinfor-",
+    "abstract": "inmusicretrievalandrecommendationonalargescale\u2014in We present the LFM-1b dataset of more than one billion particularthoseworkinginacademia\u2014arefacingthechal- music listening events created by more than 120,000 users lengethattheyfrequentlyhavetoacquirethedatafortheir of Last.fm. Each listening event is characterized by artist, experiments themselves, which results in non-standardized album, and track name, and further includes a timestamp. collections, hindering reproducibility .",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\30.pdf"
+  },
+  "113": {
+    "title": "Fast audio fingerprinting system using GPU and a clustering-based technique",
+    "author": "Unknown Author",
+    "abstract": "systemthatdetectsatransformedcopyofanaudiofromalarge extent of this reality. For instance, YouTube claims that, in collection of audios in a database. The audio fingerprints in this March 2015, 300 hours of videos were uploaded every single system encode the positions of salient regions of binary images minute[1].Thishugedatatrafficalsoimpliesseriouscopyright derived from a spectrogram matrix. The similarity between two fingerprints is defined as the intersection of their elements (i.e. issues.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\31.pdf"
+  },
+  "114": {
+    "title": "The Trials and Tribulations of Working with Structured Data - a Study on Information Seeking Behaviour",
+    "author": "Unknown Author",
+    "abstract": "Structureddatasuchasdatabases,spreadsheetsandwebtables ingmaps,predictingelectionsanddesigningbetterproducts. is becoming critical in every domain and professional role. Moreandmoreofitcanbeaccessedorpurchasedonline-a Yetwestilldonotknowmuchabouthowpeopleinteractwith 2011 study by Cafarella et al. found more than one billion it. Ourresearchfocusesontheinformationseekingbehaviour structureddataresourcesonthe(deep)web(asHTMLtables, ofpeoplelookingfornewsourcesofstructureddataonline, lists,etc.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\32.pdf"
+  },
+  "115": {
+    "title": "Anserini: Enabling the Use of Lucene for Information Retrieval Research",
+    "author": "Peilin Yang, Hui Fang and Jimmy Lin",
+    "abstract": "Softwaretoolkitsplayanessentialroleininformationretrieval andTerrier3wereprimarilydesignedtofacilitateevaluationover research.Mostopen-sourcetoolkitsdevelopedbyacademicsarede- standardtestcollectionsfromevaluationforumssuchasTREC, signedtofacilitatetheevaluationofretrievalmodelsoverstandard CLEF,NTCIR,etc. Inmanycases,scalabilitytookabackseatto testcollections.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\33.pdf"
+  },
+  "116": {
+    "title": "Statistical Significance Testing in Information Retrieval: Theory and Practice",
+    "author": "Ben Carterette",
+    "abstract": "Thepast20yearshaveseenagreatimprovementintherigorof otherthanrandomchance.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\34.pdf"
+  },
+  "117": {
+    "title": "Investigating per Topic Upper Bound for Session Search Evaluation",
+    "author": "Zhiwen Tang and Grace Hui Yang",
+    "abstract": "SessionsearchisacomplexInformationRetrieval(IR)task.Asa theentirecourseofthesearch. result,itsevaluationisalsocomplex.Agreatnumberoffactors Mostmetricsmeasuretheamountofinformationausergains needtobeconsideredintheevaluationofsessionsearch.They duringasearchsession.Thegainisusuallyrepresentedasthesum includedocumentrelevance,documentnovelty,aspect-relatednov- ofrelevanceofthedocumentsthathavebeenreturnedsofar.The eltydiscounting,anduser\u2019seffortsinexaminingthedocuments.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\35.pdf"
+  },
+  "118": {
+    "title": "An Exploration of Serverless Architectures for Information Retrieval",
+    "author": "Matt Crane and Jimmy Lin",
+    "abstract": "Serverlessarchitecturesrepresentanewapproachtodesigning tecturesthatsimplifymanagement. applicationsinthecloudwithouthavingtoexplicitlyprovision Anewtrendincloudcomputingunderthebannerofserverless ormanageservers. Thedeveloperspecifiesfunctionswithwell- architectureorserverlesscomputingaimstodivorcetheexecution definedentryandexitpoints,andthecloudproviderhandlesall ofstatelessservicesfromtheservermachinestheyrunon(whether otheraspectsofexecution.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\36.pdf"
+  },
+  "119": {
+    "title": "Modeling Information Retrieval by Formal Logic",
+    "author": "Unknown Author",
+    "abstract": "requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org. \u00a92019Copyrightheldbytheowner/author(s).PublicationrightslicensedtoACM. 0360-0300/2019/02-ART15$15.00 https://doi.org/10.1145/3291043 ACMComputingSurveys,Vol.52,No.1,Article15.Publicationdate:February2019.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\37.pdf"
+  },
+  "120": {
+    "title": "User Intent Prediction in Information-seeking Conversations",
+    "author": "Chen Qu, Liu Yang, W. Bruce Croft, Yongfeng Zhang, Johanne R. Trippas, and Minghui Qiu",
+    "abstract": "Conversationalassistantsarebeingprogressivelyadoptedbythe rallanguageprocessing(NLP)communitytopaymoreattention generalpopulation.However,theyarenotcapableofhandlingcom- toconversationalsearch.Forexamples,SIGIR\u201918,ICTIR\u201917,and plicatedinformation-seekingtasksthatinvolvemultipleturnsofin- EMNLP\u201918allhaveworkshops1,2,3onconversationalsearch. formationexchange.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\38.pdf"
+  },
+  "121": {
+    "title": "Challenges in Search on Streaming Services: Netflix Case Study",
+    "author": "Sudarshan Lamkhede and Sudeep Das",
+    "abstract": "Wediscusssalientchallengesofbuildingasearchexperiencefora service,previously),andSearchplaysacomplementaryroletothe streamingmediaservicesuchasNetflix.Weprovideanoverview personalizedrecommendations.Wehaveobservedthatmorethan oftheroleofrecommendationswithinthesearchcontexttoaid 20%ofdiscoverystreaminghappensthroughSearchonNetflix. contentdiscoveryandsupport searchesforunavailable(out-of- Usershavedifferentuse-casesforsearchonstreamingmediaplat- catalog)entities.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\39.pdf"
+  },
+  "122": {
+    "title": "Animating Images to Transfer CLIP for Video-Text Retrieval",
+    "author": "Yu Liu",
+    "abstract": "trastiveLanguage-ImagePretraining)modelforvideo-textretrieval withpromisingperformance.However,duetothedomaingapbe- tweenstaticimagesandvideos,CLIP-basedvideo-textretrieval modelswithinteraction-basedmatchingperformfarworsethan modelswithrepresentation-basedmatching.Inthispaper,wepro- poseanovelimageanimationstrategytotransfertheimage-text CLIPmodeltovideo-textretrievaleffectively.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\4.pdf"
+  },
+  "123": {
+    "title": "Unsupervised Rank-Preserving Hashing for Large-Scale Image Retrieval",
+    "author": "Svebor Karaman, Xudong Lin, Xuefeng Hu, and Shih-Fu Chang",
+    "abstract": "Query hashing algorithm Query Weproposeanunsupervisedhashingmethod,exploitingashallow feature hash code neuralnetwork,thataimstoproducebinarycodesthatpreserve Reranking therankinginducedbyanoriginalreal-valuedrepresentation.This Final ismotivatedbytheemergenceofsmall-worldgraph-basedapprox- results Reconstruction Reconstructed imatesearchmethodsthatrelyonlocalneighborhoodranking.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\40.pdf"
+  },
+  "124": {
+    "title": "Term Discrimination Value for Cross-Language Information Retrieval",
+    "author": "Ali Montazeralghaem, Razieh Rahimi, and James Allan",
+    "abstract": "Termdiscriminationvalueisamongthethreebasicheuristicsex- corpus-basedCLIRmodels. ploited,directlyorindirectly,inalmostallrankingmodelsforad- Twowidely-usedbasicmethodsforcorpus-basedCLIRare:(1)the hocInformationRetrieval(IR).Querytermdiscriminationinmono- probabilistic structured query (PSQ) method [6], and (2) cross- lingualIRisusuallyestimatedbasedondocumentorcollection languageinformationretrievalbasedonthelanguagemodeling frequencyofterms.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\41.pdf"
+  },
+  "125": {
+    "title": "Adversarial Attack on Video Retrieval",
+    "author": "Ying Zou, Chenglong Zhao, Bingbing Ni",
+    "abstract": "Recentlyadversarialexampleshavebeenreportedtorevealthe outputtingnotnear-duplicatevideos.Namely,theretrievedvideos fragilityofdeeplearningmodels.However,mostadversarialattacks rankedatthetoparedifferenttothecraftedadversarialexamplesin focus on classification task and less attention has been paid to visualcontext,whichisillustratedinthesecondrowinFigure1.For retrievaltask.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\42.pdf"
+  },
+  "126": {
+    "title": "Flexible Interactive Retrieval SysTem 2.0for Visual Lifelog Exploration at LSC 2021",
+    "author": "Hoang-Phuc Trang-Trung1,2,3, Thanh-Cong Le1,2,3, Mai-Khiem Tran1,2,3, Van-Tu Ninh4, Tu-Khiem Le4, Cathal Gurrin4, Minh-Triet Tran1,2,3",
+    "abstract": "Withahugecollectionofphotosandvideoclips,itisessentialto notonlytorevivememoriesortoverifyeventsbutalsotoanalyze provideanefficientandeasy-to-usesystemforuserstoretrieve forabetterunderstandingofourbehaviorsandhabits[11].This momentsofinterestwithawidevariationofquerytypes.Thismo- canhelpre-designbusinessprocesses,createbetterpersonalized tivatesustodevelopandupgradeourflexibleinteractiveretrieval intelligentservices,improvepersonallifestyleandhealth,etc. systemforvisuallifelogexploration.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\43.pdf"
+  },
+  "127": {
+    "title": "Learning Segment Similarity and Alignment in Large-Scale Content Based Video Retrieval",
+    "author": "Chen Jiang",
+    "abstract": "Withtheexplosivegrowthofwebvideosinrecentyears,large-scale \u2022Informationsystems\u2192Videosearch;Near-duplicateand Content-BasedVideoRetrieval(CBVR)becomesincreasinglyessen- plagiarismdetection;Similaritymeasures. tialinvideofiltering,recommendation,andcopyrightprotection.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\44.pdf"
+  },
+  "128": {
+    "title": "Personalized Multi-modal Video Retrieval on Mobile Devices",
+    "author": "Haotian Zhang",
+    "abstract": "complexnaturallanguagequeries,especiallyiftheycontainperson- alizedconcepts,suchaspropernames.Toaddresstheseshortcom- ings,weproposeanefficientandprivacy-preservingvideoretrieval systemthatworkswellwithpersonalizedqueriescontainingproper names,withoutre-trainingusingpersonalizedlabelleddatafrom users.Oursystemfirstcomputesaninitialrankingofavideocollec- tionbyusingagenericattention-basedvideo-textmatchingmodel (i.e.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\45.pdf"
+  },
+  "129": {
+    "title": "Hierarchical Cross-Modal Graph Consistency Learning for Video-Text Retrieval",
+    "author": "Weike Jin, Zhou Zhao, Pengcheng Zhang, Jieming Zhu, Xiuqiang He, and Yueting Zhuang",
+    "abstract": "tionretrievalbetweenvideosandtextshasattractedbroadinterest fromresearchers,whichisachallengingcross-modalretrievaltask. A little girl is shopping with her family and she puts back a product when her brother picks up something else. Acommonsolutionistolearnajointembeddingspacetomeasure thecross-modalsimilarity.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\46.pdf"
+  },
+  "130": {
+    "title": "required to compute such measures (Section 4). The reliability of",
+    "author": "measuring the ability of systems to find relevant documents.",
+    "abstract": "that similar relative performance will be observed on other test The effectiveness of information retrieval systems is measured by collections and in operational settings. comparing performance on a common set of queries and When researchers report results of a retrieval experiment and documents. Significance tests are often used to evaluate the show, using some effectiveness measure, that one retrieval system reliability of such comparisons.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\47.pdf"
+  },
+  "131": {
+    "title": "knowledge through bibliographic control devices have been exacerbated",
+    "author": "the interposition of additional encoding processes in the library",
+    "abstract": "Article history: Communication is a process involving a group of interrelated elements Received 30 April 2020 working together for the purpose of information transfer. This paper Revised 12 May 2020 discusses information retrieval as a communication process in the 21st Accepted 19 May 2020 century library. The difficulties associated with access to recorded knowledge through bibliographic control devices have been exacerbated by the interposition of additional encoding processes in the library",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\48.pdf"
+  },
+  "132": {
+    "title": "Medical Information Retrieval Systems for e-Health Care Records using Fuzzy based Machine Learning Model",
+    "author": "Arokia Jesu Prabhu L",
+    "abstract": "aDepartment of Computer Science and Engineering, Sri Shakthi Institute of Engineering and Technology, Coimbatore-641062, Tamil Nadu, India",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\49.pdf"
+  },
+  "133": {
+    "title": "CLIP4Hashing: Unsupervised Deep Hashing for Cross-Modal Video-Text Retrieval",
+    "author": "Yaoxin Zhuo",
+    "abstract": "video-textretrievalhasreceivedalotofattentioninrecentyears. Deepcross-modalhashingapproachesutilizetheHammingspace 35 forachievingfastretrieval.However,mostexistingalgorithmshave 30 difficultiesinseekingorconstructingawell-definedjointsemantic space.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\5.pdf"
+  },
+  "134": {
+    "title": "Recent Advances in Conversational Information Retrieval",
+    "author": "Jianfeng Gao, Chenyan Xiong, Paul Bennett",
+    "abstract": "JianfengGao,ChenyanXiong,PaulBennett.2020.RecentAdvancesin This tutorial will provide a survey-like foundation and build a",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\50.pdf"
+  },
+  "135": {
+    "title": "Expedient Information Retrieval System for Web Pages Using the Natural Language Modeling",
+    "author": "Raj",
+    "abstract": "become more popular as it assists in searching for the valuable information in a structured, unstructured or a semi structured data set like text, database, multimedia, documents, and internet etc. The retrieval of information is performed employing any one of the models starting from the simple Boolean model for retrieving information, or using other frame works such as probabilistic, vector space and the natural language modelling.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\51.pdf"
+  },
+  "136": {
+    "title": "that will affect software engineering practices in the next couple of",
+    "author": "which the properties of software are made useful to people.\u201d The",
+    "abstract": "George Santayana's statement, \"Those who cannot remember the One has to be a bit presumptuous to try to characterize both the past past are condemned to repeat it,\" is only half true. The past also and future of software engineering in a few pages. For one thing, includes successful histories. If you haven't been made aware of there are many types of software engineering: large or small; them, you're often condemned not to repeat their successes.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\52.pdf"
+  },
+  "137": {
+    "title": "Evidence-based software engineering for practitioners",
+    "author": "T. Dyba;B.A. Kitchenham;M. Jorgensen",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\53.pdf"
+  },
+  "138": {
+    "title": "other\u201cnormal\u201dcontingenciesaswellasemergenciescaused conditions. In both instances, how time is represented is",
+    "author": "faults and cascading events. The core of this new ap- important, which leads to either an accurate representation",
+    "abstract": "Many power system applications, particularly those related to dataacquisitionandcommunicationcapabilitiesandthead-",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\54.pdf"
+  },
+  "139": {
+    "title": "we used a phrase consisting of four parts joined together different world regions (estimated by the \"total product\")",
+    "author": "the so-called Boolean operators, i.e. AND, OR, and was evaluated in relation to total population, gross",
+    "abstract": "worldwide invests considerably on research. We evaluated the contribution of different world regions in research production in Infectious Diseases. Methods: Using the online Pubmed database we retrieved articles from 38 journals included in the \"Infectious Diseases\" category of the \"Journal Citation Reports\" database of the Institute for Scientific Information for the period 1995\u20132002. The world was divided into 9 regions based on geographic, economic and scientific criteria.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\55.pdf"
+  },
+  "140": {
+    "title": "https://academic.oup.com/bioinformatics/article/21/2/263/186662",
+    "author": "guest",
+    "abstract": "Summary: Research over the last few years has revealed tionsperformedinrealtime,evenfordatasetswithhundreds significant haplotype structure in the human genome. The ofindividualsandhundredsofmarkers. characterization of these patterns, particularly in the con- text of medical genetic association studies, is becoming a routine research activity. Haploview is a software pack- FEATURES age that provides computation of linkage disequilibrium Haploview accepts input in a variety of formats.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\56.pdf"
+  },
+  "141": {
+    "title": "doi:10.1016/j.patcog.2006.04.045",
+    "author": "Unknown Author",
+    "abstract": "sophisticatedlow-levelfeatureextractionalgorithmstoreducingthe\u2018semanticgap\u2019betweenthevisualfeaturesandtherichnessofhuman semantics. This paper attempts to provide a comprehensive survey of the recent technical achievements in high-level semantic-based image retrieval. Major recent publications are included in this survey covering different aspects of the research in this area, including low-level image feature extraction, similarity measurement, and deriving high-level semantic features.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\57.pdf"
+  },
+  "142": {
+    "title": "A novel content-based image retrieval system with feature descriptor integration and accuracy noise reduction",
+    "author": "Gabriel S. Vieira",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\58.pdf"
+  },
+  "143": {
+    "title": "RecentAdvanceinContent-basedImage Retrieval:ALiteratureSurvey",
+    "author": "Unknown Author",
+    "abstract": "inimagesearchorretrieval.Withtheignoranceofvisualcontentasarankingclue,methodswithtextsearchtechniquesforvisual retrievalmaysufferinconsistencybetweenthetextwordsandvisualcontent.Content-basedimageretrieval(CBIR),whichmakesuse oftherepresentationofvisualcontenttoidentifyrelevantimages,hasattractedsustainedattentioninrecenttwodecades.Sucha problemischallengingduetotheintentiongapandthesemanticgapproblems.Numeroustechniqueshavebeendevelopedfor content-basedimageretrievalinthelastdecade.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\59.pdf"
+  },
+  "144": {
+    "title": "Learning Hierarchical Semantic Correspondences for Cross-Modal Image-Text Retrieval",
+    "author": "Sheng Zeng",
+    "abstract": "Cross-modalimage-textretrievalisafundamentaltaskininforma- MultimediaRetrieval(ICMR\u201922),June27\u201330,2022,Newark,NJ,USA.ACM, NewYork,NY,USA,10pages.https://doi.org/10.1145/3512527.3531358 tionretrieval.Thekeytothistaskistoaddressbothheterogeneity andcross-modalsemanticcorrelationbetweendataofdifferent modalities.Fine-grainedmatchingmethodscannicelymodellocal semanticcorrelationsbetweenimageandtextbutfacetwochal- lenges.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\6.pdf"
+  },
+  "145": {
+    "title": "Evaluating Pre-trained Convolutional Neural Networks and Foundation Models as Feature Extractors for Content-based Medical Image Retrieval",
+    "author": "Amirreza Mahbod; Nematollah Saeidi; Sepideh Hatamikia; Ramona Woitek;",
+    "abstract": "query images in a database, with applications such as diagnosis support, treatment planning, and educational tools for inexperienced medical prac- titioners. While traditional medical image retrieval was performed using clinical metadata, content-based medical image retrieval (CBMIR) relies on the characteristic features of the images, such as color, texture, shape, and spatial features.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\60.pdf"
+  },
+  "146": {
+    "title": "Semantic content-based image retrieval: A comprehensive study",
+    "author": "Ahmad Alzu\u00e2\u20acTMbi",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\61.pdf"
+  },
+  "147": {
+    "title": "Towardsintegratingsemanticsofmulti-mediaresources andprocessesine-Learning",
+    "author": "Unknown Author",
+    "abstract": "boom and bust situation in the past 10 years [32]. To learning resources online fulfills the basic requirements of bring in new forces to knowledge-oriented e-Learning, this work-relatedshort-termlearning.Incontrast,e-Learningin paper addresses the semantic integration issue of multi- schools and universities is different, where e-Learning is media resources and learning processes with theoretical more widely used as an assistant or complementary ap- learning supports in an integrated framework.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\62.pdf"
+  },
+  "148": {
+    "title": "User-authorcenteredmultimediabuildingblocks",
+    "author": "Unknown Author",
+    "abstract": "tools popularized the access and production of multi- semantic power to automate low level technical activi- mediacontents:inthisnewscenario,thereisnolonger ties,therebyfreeinguser-authorstoconcentrateoncre- a clear distinction between authors and end-users of a ative tasks. Model and infrastructure improve recent production.Theseuser-authorsoftenworkinacollabo- research initiatives to standardize the means of rativeway.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\63.pdf"
+  },
+  "149": {
+    "title": "thefollowingrenderingcontroloptionstothelistabove: [10]showninFig.1.InFig.1a,weseethecontentasthe",
+    "author": "intended: a collection of in-line and out-of-line",
+    "abstract": "vidinguser-centeredcontrolofmultimediahasbeenon user-centeredenterprisewithintherealmofinformation the definition of models and (meta-data) descriptions systems. Upon closer examination, however, it is clear that assist in locating or recommending media objects. thattheuserhasplayedanythingbutacentralroledur- Whilethiscanprovideamoreefficientmeansofselect- ing the first decade of wide-scale multimedia systems ingcontent,itprovideslittleextracontrolforusersonce deployment. thatcontentisrendered.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\64.pdf"
+  },
+  "150": {
+    "title": "SchoolofComputerandInformation,",
+    "author": "mining the viewing history [, , 32] or utilize",
+    "abstract": "help people access interesting videos. In this paper, we rank aggregation approach. We conduct experiments on a proposeauniversalschemetointegraterichinformationfor large dataset with 76 users and more than 11,000 videos. personalizedvideorecommendation.Ourapproachregards The experimental results demonstrate the feasibility and videorecommendationasarankingtask.First,itgenerates effectiveness of ourapproach. multiple ranking lists by exploring different information sources.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\65.pdf"
+  },
+  "151": {
+    "title": "Visualandtextualfusionforsemanticallysupervisedregion-based retrieval",
+    "author": "Unknown Author",
+    "abstract": "retrievalframework,whichintegratesregionannotationwith retrievaltarget.Betterannotationandretrievalperformance imageretrievalforperformancereinforcement.Tointegrate thancurrentmethodswerereportedonbothCOREL10,000 semanticannotationwithregion-basedimageretrieval,visual andFlickrwebimagedatabase(25,000images),whichdem- and textual fusion is proposed for both soft matching and onstratedtheeffectivenessofourproposedframework. Bayesian probabilistic formulations.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\66.pdf"
+  },
+  "152": {
+    "title": "artist, title) and a web search engine.1 (b) Retrieval based on rich and expressive metadata given",
+    "author": "tags. (c) Content-based retrieval using audio, MIDI, or score information.",
+    "abstract": "ploring large music collections. Traditional retrieval strategies rely on metadata that describe the actual audio content in words. In the case that such textual descriptions are not available, one requires content-based retrieval strategies which only utilize the raw audio material.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\67.pdf"
+  },
+  "153": {
+    "title": "Content-BasedMusic InformationRetrieval: CurrentDirectionsand",
+    "author": "Unknown Author",
+    "abstract": "has created a major shift in the music industry away from (e.g., music notation and symbolic representation), and physical media formats and towards online products and identifiessomeofthemajorchallengesforthecomingyears. services. Music is one of the most popular types of online information and there are now hundreds of music streaming KEYWORDS | Audio signal processing; content-based music and download services operating on the World-Wide Web.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\68.pdf"
+  },
+  "154": {
+    "title": "featuredesign. Thechroma-basedapproachassuggested ms. For the Beethoven example, the resulting 12 curves",
+    "author": "Bartsch and Wakefield (2005) represents the spectral areshowninFig.1. Tosuppressrandom-likeenergydis-",
+    "abstract": "matching. Herethegoalistoretrieveallaudioclipsfrom In this paper, we describe an efficient method for audio thedatabasethatinsomesenserepresentthesamemusical matching which performs effectively for a wide range of contentasthequeryclip. Thisistypicallythecasewhen classical music. The basic goal of audio matching can the same piece of music is available in several interpre- bedescribedasfollows: consideranaudiodatabasecon- tations and arrangements.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\69.pdf"
+  },
+  "155": {
+    "title": "Improving Causality in Interpretable Video Retrieval",
+    "author": "VarshaDevi PhilippeMulhem GeorgesQu\u00e9not",
+    "abstract": "Thispaperfocusesonthecausalrelationbetweenthedetection isimplementedusingonlytheconceptclassificationscores,thereby scoresofconcept(ortag)classifiersandtherankingdecisionsbased enforcingastrictcausalrelationbetweenconceptclassificationand onthesescores,pavingthewayforthesetagstobeusedinthe TTV/VTTretrieval[30].Thesystemoperationistheninterpretable visualexplanations.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\7.pdf"
+  },
+  "156": {
+    "title": "Microsoft Word - ISMIR-2003-Shazam-rev2.doc",
+    "author": "Bryan",
+    "abstract": "We have developed and commercially deployed a flexible audio search engine. The algorithm is noise and distortion resistant,",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\70.pdf"
+  },
+  "157": {
+    "title": "WSREB Mechanism: Web Search Results Exploration Mechanism for Blind Users",
+    "author": "Snober Naseer, Umer Rashid, Maha Saddal, Abdur Rehman Khan, Qaisar Abbas and Yassine Daadaa",
+    "abstract": "mationdissemination.Nevertheless,blindusers(BUs)encountersubstantialbarriersinleveraging onlineservices,attributabletointrinsicdeficienciesintheinformationstructurepresentedbyonline platforms.AcriticalanalysisrevealsthataconsiderablesegmentofBUsperceiveonlineserviceaccess aseitherchallengingorunfeasible,withonlyafractionofsearchendeavorsculminatingsuccessfully.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\71.pdf"
+  },
+  "158": {
+    "title": "Index wiki database:design and experiments",
+    "author": "Michael",
+    "abstract": "With the fantastic growth of Internet usage, information search in documents of a special type called a \u201cwiki page\u201d that",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\72.pdf"
+  },
+  "159": {
+    "title": "Geographical information retrieval",
+    "author": "Christopher B. Jones & Ross S. Purves",
+    "abstract": "",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\73.pdf"
+  },
+  "160": {
+    "title": "Introduction to Searching with Regular Expressions",
+    "author": "Christopher M. Frenz",
+    "abstract": "information pertinent to your needs. These problems are often compounded when keyword based search methodologies are not adequate for describing the information you seek. In many instances, information such as Web site URLs, phone numbers, etc. can often be better identified through the use of a textual pattern than by keyword.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\74.pdf"
+  },
+  "161": {
+    "title": "Microsoft Word - inscit2006_esj_paperV4.doc",
+    "author": "Laurent Capelli",
+    "abstract": "bibliographic database (http://www.inist.fr) and compared the structured terminological resource automatically build by TermWarch to the English segment of TermScience resource (http://termsciences.inist.fr/) containing 88 211 terms.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\75.pdf"
+  },
+  "162": {
+    "title": "about real-world performance of proposed concepts.",
+    "author": "a given search query and show the validity of such a",
+    "abstract": "IR-based methods, which operate on a set of values result clustering, using partitioning of underlying link graph. precomputed for each document, graph-based algorithms We define the notion of \"query-induced subgraph\" and operate on dynamical query-dependent representation of formulate the problem of search result clustering as a problem of efficient partitioning of a given subgraph into entire link graph, which makes precomputation impossible topic-related clusters.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\76.pdf"
+  },
+  "163": {
+    "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+    "author": "Sunhao Dai",
+    "abstract": "Withtherapidadvancementsoflargelanguagemodels(LLMs),in- InformationRetrieval,LargeLanguageModel,Bias,Fairness formationretrieval(IR)systems,suchassearchenginesandrecom- mendersystems,haveundergoneasignificantparadigmshift.This ACMReferenceFormat: evolution,whileheraldingnewopportunities,introducesemerging SunhaoDai,ChenXu,ShichengXu,LiangPang,ZhenhuaDongandJun challenges,particularlyintermsofbiasesandunfairness,which Xu.2024.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\77.pdf"
+  },
+  "164": {
+    "title": "X DeepRetrieval:PowerfulQueryGenerationforInformation RetrievalwithReinforcementLearning",
+    "author": "Unknown Author",
+    "abstract": "largedocumentcollections. RecentapproacheshaveleveragedLargeLan- guage Models (LLMs) to enhance retrieval performance through query augmentation, but often rely on expensive supervised learning or dis- tillationtechniquesthatrequiresignificantcomputationalresourcesand hand-labeled data. In this paper, we introduce DeepRetrieval, a novel reinforcementlearning-basedapproachthattrainsLLMstoperformquery augmentationdirectlythroughtrialanderror,withoutrequiringsupervised data.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\78.pdf"
+  },
+  "165": {
+    "title": "A Systematic Review of Fairness, Accountability, Transparency, and Ethics in Information Retrieval",
+    "author": "Unknown Author",
+    "abstract": "requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org. \u00a92025Copyrightheldbytheowner/author(s).PublicationrightslicensedtoACM. 0360-0300/2025/02-ART136$15.00 https://doi.org/10.1145/3637211 ACMComputingSurveys,Vol.57,No.6,Article136.Publicationdate:February2025.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\79.pdf"
+  },
+  "166": {
+    "title": "NewsInsight: A Comprehensive Video Event Retrieval System with Spatial Insights and Query Assistance",
+    "author": "Unknown Author",
+    "abstract": "Videoeventretrievalisthetaskoffindingvideosthatarerelevant \u2022Informationsystems\u2192Multimediadatabases;Usersand toagivenquery.Itisachallengingproblembecausevideosare interactiveretrieval;Searchinterfaces;\u2022Human-centeredcom- typicallymuchlargerthanimages,andtheycancontainavari- puting\u2192Interactivesystemsandtools. etyofdifferentobjectsandscenes.However,thereareanumber ofdifferentapproachestovideoretrieval,andthefieldisrapidly KEYWORDS evolving.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\8.pdf"
+  },
+  "167": {
+    "title": "ImprovedCodedCachingSchemeforMulti-User InformationRetrievalSystem",
+    "author": "Unknown Author",
+    "abstract": "consistsofacontentlibrarycontainingN files,abasestation(BS)withLantennasthatcannotaccessthelibrary,andK single- antenna users, each of which can cache at most M files from the library. The users communicate with the others assisted by the BS to decode their required files. In this paper, we focus on designing a coded caching scheme with low communication latency measuredbynormalizeddeliverytime(NDT),computationalcomplexity,andsubpacketizations.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\80.pdf"
+  },
+  "168": {
+    "title": "TowardAgenticAI:GenerativeInformation RetrievalInspiredIntelligentCommunicationsand Networking",
+    "author": "Unknown Author",
+    "abstract": "telecommunications networks demand intelligent automation to management, and real-time optimization [1]. Agentic AI has enhance efficiency, adaptability, and resilience. Agentic AI has emerged as a promising paradigm for autonomous network emerged as a key paradigm for intelligent communications intelligence, addressing the limitations of traditional rule- and networking, enabling AI-driven agents to perceive, rea- son, decide, and act within dynamic networking environments.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\81.pdf"
+  },
+  "169": {
+    "title": "and shortcomings faced by these approaches. In the next section we discuss our contribution",
+    "author": "giving an overview of the contextual evaluation approach that we propose and describing",
+    "abstract": "evidence to improve the performance of these tools and the quality of results that they return. However, the classicevaluation approaches have limitations and shortcomings especially regarding to the user consideration, the measure of the adequacy between the query and the returned documents and the consideration of characteristics, specifications and behaviors of the search tool.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\86.pdf"
+  },
+  "170": {
+    "title": "==PAGE_BREAK==",
+    "author": "providinga formal model of queryexpansion for a given",
+    "abstract": "kenintosingular value decompositionandonline demo. This paperpresents thefirst evaluation framework for Web All documents containing the individual terms singular, searchquerysegmentationbaseddirectlyonIRperformance. value and decomposition are not necessarily relevant for In the past, segmentation strategies were mainly validated this query. Rather, one can almost always expect to find againstmanualannotations.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\87.pdf"
+  },
+  "171": {
+    "title": "document unit is: files on your desktop, email",
+    "author": "increasing efforts in development of XML",
+    "abstract": "retrieval, it is usually clear what the right XML information repositories has been matched document unit is: files on your desktop, email by increasing efforts in development of XML messages, web pages on the web etc. While the retrieval systems, in large parts aiming at first challenge in the semistructured information supporting content-oriented XML retrieval.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\88.pdf"
+  },
+  "172": {
+    "title": "Microsoft Word - Final version with proof reference corrections.docx",
+    "author": "e59017",
+    "abstract": "on user effectiveness. A user study was conducted to investigate this effect, 56 participants completed searches for 56 topics using the TREC test collection. Results indicated that participants with search experience and high cognitive skills were more effective than those with less experience and slower perceptual abilities. However, all users rated themselves with the same level of satisfaction with the search results despite the fact they varied substantially in their effectiveness.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\89.pdf"
+  },
+  "173": {
+    "title": "An Interactive System for Multimedia Retrieval in Video Collection with Temporal Integration",
+    "author": "Unknown Author",
+    "abstract": "Multimediaretrievalincomputerscienceistheprocessofobtaining Gia-KietPham,Hai-BinhTran,Phi-LongNguyen,Song-PhuongLe,Hoang- LongPham,Xuan-TriPham,Ham-DuongTran,Ngoc-TinHuynh,andKiem text,images,videos,andaudiosegments,allindigitalformrele- Hoang.2023.AnInteractiveSystemforMultimediaRetrievalinVideo vanttoaninformationneedfromacollectionoftheseresources. CollectionwithTemporalIntegration.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\9.pdf"
+  },
+  "174": {
+    "title": "OverviewofthePersonalizedandCollaborative InformationRetrieval(PIR)TrackatFIRE-2011",
+    "author": "Unknown Author",
+    "abstract": "atFIRE2011wasorganizedwithanaimtoextendstandardinformationretrieval (IR)ad-hoctestcollectiondesigntofacilitateresearchonpersonalizedandcol- laborativeIRbycollectingadditionalmeta-informationduringthetopic(query) developmentprocess.Acontrolledquerygenerationprocessthroughtask-based activitieswithactivityloggingwasusedforeachtopicdevelopertoconstructthe finallistoftopics.Thestandardad-hoccollectionisthusaccompaniedbyanew setofthematicallyrelatedtopicsandtheassociatedloginformation.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\90.pdf"
+  },
+  "175": {
+    "title": "a logic for IR along the so-called logical approach, initiated social network that is extracted from the web documents and",
+    "author": "the pioneer work and given decisive impulse by two forusingthisrelevancetocomputetheimportanceawebpage.",
+    "abstract": "tion with the internet, will incorporate the content descriptions its semantics, with the aim to improve retrieval effectiveness. that are generated with social network extraction technologies In line with those logic studies, there are formalresearches and preferably incorporate the probability theory for assigning dealingwithImaginginIR[16].Thisideaexplicitlyproposed thesemantic.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\91.pdf"
+  },
+  "176": {
+    "title": "Microsoft Word - IJCSI-2012-9-4-3636-main",
+    "author": "Reza",
+    "abstract": "Research has been devoted in the past few years to relevance needs in order to achieve higher precision. Therefore we feedback as an effective solution to improve performance of can define relevance feedback as the process by which information retrieval systems. Relevance feedback refers to an human and computer interact in order to automatically interactive process that helps to improve the retrieval adjust an existing query to the real user preferences. performance.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\92.pdf"
+  },
+  "177": {
+    "title": "Structured Data are data organized and stored in fields, headers and tags, and therefore they are easily usable",
+    "author": "a computer; whereas, unstructured data are data with no clear, semantically overt structure, which are harder",
+    "abstract": "and query modelling involved in IR systems, in addition to pre-processing operations such as removing stop words and searching by synonym techniques. The paper also tackles text categorization along with its application in neural networks and machine learning. Finally, the architecture of web crawlers is to be discussed shedding the light on how internet spiders index web documents and how they allow users to search for items on the web.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\93.pdf"
+  },
+  "178": {
+    "title": "Semantic-Sensitive Web Information Retrieval Model for HTML Documents",
+    "author": "Youssef Bassil",
+    "abstract": "begun. Currently, the Internet encompasses more than five billion online sites and this number is exponentially increasing every day. Fundamentally, Information Retrieval (IR) is the science and practice of storing documents and retrieving information from within these documents.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\94.pdf"
+  },
+  "179": {
+    "title": "conceptofdataminningusingvectorspacemodelandthefreedictionary. Wedevelopclusters",
+    "author": "computing the similarity between community vectors and document vectors formed from",
+    "abstract": "them are not relevant. In this context, effective information retrieval from the expanding web is a challenging task, in particular, if the query is ambiguous. The major question arises here is that how to get the relevant pages for an ambiguous query. We propose an approach for theeffectiveresultofanambiguousquerybyformingcommunityvectorbasedonassociation conceptofdataminningusingvectorspacemodelandthefreedictionary.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\95.pdf"
+  },
+  "180": {
+    "title": "123 Crowdsourcinginteractions:usingcrowdsourcing forevaluatinginteractiveinformationretrievalsystems",
+    "author": "Unknown Author",
+    "abstract": "facedwithademandforvalidapproachestoevaluatetheperformanceofretrievalsystems. The Cranfield experiment paradigm has been dominant for the in-vitro evaluation of IR systems.Alternativetothisparadigm,laboratory-baseduserstudieshavebeenwidelyused toevaluateinteractiveinformationretrieval(IIR)systems,andatthesametimeinvestigate users\u2019informationsearchingbehaviours.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\96.pdf"
+  },
+  "181": {
+    "title": "Personalised information retrieval: survey and classification",
+    "author": "M. Rami Ghorab, Dong Zhou, Alexander O'Connor, and Vincent Wade",
+    "abstract": "resources available on the Web. A traditional characteristic of IR systems is that if different users submit the same query, the system would yield the same list of results, regardless of the user. Personalised Information Retrieval (PIR) systems take a step further to better satisfy the user\u2019s specific information needs by providing search results that are not only of relevance to the query but are also of particular relevance to the user who submitted the query.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\97.pdf"
+  },
+  "182": {
+    "title": "fp023-hu.dvi",
+    "author": "Unknown Author",
+    "abstract": "Mathematical formulae in structural formats such as Mathematical Information Retrieval, Mathematical Re- MathML and LATEX are becoming increasingly available. source Management, StructureMatching Moreover, repositories and websites, including ArXiv and Wikipedia, and growing numbers of digital libraries use 1. INTRODUCTION these structural formats to present mathematical formulae.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\98.pdf"
+  },
+  "183": {
+    "title": "Theneglecteduserinmusicinformation retrievalresearch",
+    "author": "Unknown Author",
+    "abstract": "research on Intelligent Information Systems. In the fields of Music Information Retrieval(MIR)andMusicRecommendationinparticular,user-centricalgorithms should ideally provide music that perfectly fits each individual listener in each imaginablesituationandforeachofherinformationorentertainmentneeds.",
+    "file_path": "D:\\Mphil CS\\IRS\\Assignment\\PDFs 1-250\\99.pdf"
+  }
+}

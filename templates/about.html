@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Information Retrieval System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enhanced-style.css') }}">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Scientific Document Search Engine Logo">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <div class="header-links">
+                <a href="/">Home</a>
+                <a href="/about" class="active">About Us</a>
+                <a href="/advanced_search">Advanced Search</a>
+                <a href="/help">Help</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="about-section animate-on-scroll">
+            <h1 class="about-title">About Us</h1>
+            <p class="about-subtitle">Learn more about the team behind the Information Retrieval System</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="{{ url_for('static', filename='img/about-illustration.svg') }}" alt="Information Retrieval Illustration" onerror="this.src='https://via.placeholder.com/500x300?text=Information+Retrieval'">
+                </div>
+                
+                <div class="about-text">
+                    <h2>Our Mission</h2>
+                    <p>The Information Retrieval System is designed to provide researchers and academics with a powerful tool for searching scientific papers. Our mission is to make knowledge more accessible through advanced search capabilities and an intuitive user interface.</p>
+                    
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li>Boolean search with AND, OR, and NOT operators</li>
+                        <li>Spell correction for search queries</li>
+                        <li>PDF document viewing</li>
+                        <li>Advanced metadata display</li>
+                        <li>Responsive design for all devices</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="team-section">
+                <h2 class="team-title">Our Team</h2>
+                
+                <div class="team-members">
+                    <div class="team-member animate-on-scroll">
+                        <div class="team-member-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3 class="team-member-name">Sayed Rashid Ali</h3>
+                        <p class="team-member-role">Lead Developer</p>
+                        <p class="team-member-bio">Specializes in information retrieval algorithms and search optimization techniques.</p>
+                        <div class="team-member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-member animate-on-scroll">
+                        <div class="team-member-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3 class="team-member-name">Muhammad Usama Khan</h3>
+                        <p class="team-member-role">UI/UX Designer</p>
+                        <p class="team-member-bio">Focuses on creating intuitive and accessible user interfaces for complex search systems.</p>
+                        <div class="team-member-social">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-section animate-on-scroll">
+                <h2 class="contact-title">Contact Us</h2>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:contact@novatech.com">contact@novatech.com</a></p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Address</h3>
+                        <p>NovaTech Headquarters<br>123 Innovation Street<br>Silicon Valley, CA 94043</p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Send us a message</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'components/footer.html' %}
+    
+    <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+</body>
+</html>

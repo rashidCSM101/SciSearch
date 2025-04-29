@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ document.title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enhanced-style.css') }}">
+    <style>
+        /* Document-specific styles */
+        .document-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .document-content {
+            flex: 2;
+            min-width: 300px;
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .document-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+        
+        .document-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .document-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-light);
+            font-size: 0.875rem;
+        }
+        
+        .document-abstract {
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .document-abstract h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-color);
+        }
+        
+        .document-content-section {
+            margin-bottom: 2rem;
+        }
+        
+        .document-content-section h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-color);
+        }
+        
+        .document-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .document-action-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background-color var(--transition-fast);
+        }
+        
+        .document-action-button:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .document-action-button.secondary {
+            background-color: #f3f4f6;
+            color: var(--text-color);
+        }
+        
+        .document-action-button.secondary:hover {
+            background-color: #e5e7eb;
+        }
+        
+        /* Info Panel Styles */
+        .info-panel {
+            flex: 1;
+            min-width: 250px;
+            max-width: 350px;
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: var(--shadow-md);
+            position: sticky;
+            top: 6rem;
+            height: fit-content;
+        }
+        
+        .info-panel-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .info-panel-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: var(--primary-light);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+        
+        .info-panel-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+        
+        .info-panel-section {
+            margin-bottom: 1.5rem;
+        }
+        
+        .info-panel-section-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .info-panel-section-content {
+            font-size: 1rem;
+            color: var(--text-color);
+        }
+        
+        .info-panel-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        
+        .info-panel-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background-color var(--transition-fast);
+            width: 100%;
+        }
+        
+        .info-panel-button.primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .info-panel-button.primary:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .info-panel-button.secondary {
+            background-color: #f3f4f6;
+            color: var(--text-color);
+        }
+        
+        .info-panel-button.secondary:hover {
+            background-color: #e5e7eb;
+        }
+        
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .document-container {
+                flex-direction: column;
+            }
+            
+            .info-panel {
+                max-width: 100%;
+                position: static;
+                order: -1;
+                margin-bottom: 1.5rem;
+            }
+            
+            .document-actions {
+                flex-direction: column;
+            }
+            
+            .document-action-button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Scientific Document Search Engine Logo">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <div class="header-links">
+                <a href="/">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/advanced_search">Advanced Search</a>
+                <a href="/help">Help</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="document-container">
+            <div class="document-content animate-on-scroll">
+                <h1 class="document-title">{{ document.title }}</h1>
+                
+                <div class="document-meta">
+                    {% if document.author %}
+                    <div class="document-meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>{{ document.author }}</span>
+                    </div>
+                    {% endif %}
+                    
+                    {% if document.year %}
+                    <div class="document-meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>{{ document.year }}</span>
+                    </div>
+                    {% endif %}
+                    
+                    {% if document.journal %}
+                    <div class="document-meta-item">
+                        <i class="fas fa-book"></i>
+                        <span>{{ document.journal }}</span>
+                    </div>
+                    {% endif %}
+                    
+                    {% if document.id %}
+                    <div class="document-meta-item">
+                        <i class="fas fa-hashtag"></i>
+                        <span>ID: {{ document.id }}</span>
+                    </div>
+                    {% endif %}
+                </div>
+                
+                <div class="document-abstract">
+                    <h3>Abstract</h3>
+                    <p>{{ document.abstract }}</p>
+                </div>
+                
+                <div class="document-actions">
+                    <a href="/view_pdf/{{ document.id }}" class="document-action-button" target="_blank">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>View Document</span>
+                    </a>
+                    
+                    <a href="javascript:history.back()" class="document-action-button secondary">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Back to Results</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="info-panel animate-on-scroll">
+                <div class="info-panel-header">
+                    <div class="info-panel-icon">
+                        <i class="fas fa-info"></i>
+                    </div>
+                    <div class="info-panel-title">Document Information</div>
+                </div>
+                
+                <div class="info-panel-section">
+                    <div class="info-panel-section-title">Title</div>
+                    <div class="info-panel-section-content">{{ document.title }}</div>
+                </div>
+                
+                {% if document.author %}
+                <div class="info-panel-section">
+                    <div class="info-panel-section-title">Author</div>
+                    <div class="info-panel-section-content">{{ document.author }}</div>
+                </div>
+                {% endif %}
+                
+                {% if document.id %}
+                <div class="info-panel-section">
+                    <div class="info-panel-section-title">Document ID</div>
+                    <div class="info-panel-section-content">{{ document.id }}</div>
+                </div>
+                {% endif %}
+                
+                {% if document.doi %}
+                <div class="info-panel-section">
+                    <div class="info-panel-section-title">DOI</div>
+                    <div class="info-panel-section-content">{{ document.doi }}</div>
+                </div>
+                {% endif %}
+                
+                {% if document.year %}
+                <div class="info-panel-section">
+                    <div class="info-panel-section-title">Publication Year</div>
+                    <div class="info-panel-section-content">{{ document.year }}</div>
+                </div>
+                {% endif %}
+                
+                {% if document.journal %}
+                <div class="info-panel-section">
+                    <div class="info-panel-section-title">Journal</div>
+                    <div class="info-panel-section-content">{{ document.journal }}</div>
+                </div>
+                {% endif %}
+                
+                <div class="info-panel-actions">
+                    <a href="/view_pdf/{{ document.id }}" class="info-panel-button primary" target="_blank">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>View Document</span>
+                    </a>
+                    
+                    <a href="javascript:history.back()" class="info-panel-button secondary">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Back to Results</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'components/footer.html' %}
+    
+    <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+</body>
+</html>

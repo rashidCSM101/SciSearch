@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ document.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <form action="/search" method="get" class="search-form-small">
+                <div class="search-box-small">
+                    <input type="text" name="q" class="search-input-small" placeholder="Enter your search query...">
+                    <button type="submit" class="search-button-small">Search</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="document-container">
+            <a href="javascript:history.back()" class="back-button">&larr; Back to results</a>
+            
+            <div class="document-header">
+                <h1 class="document-title">{{ document.title }}</h1>
+                <div class="document-meta">
+                    <p class="document-author">By: {{ document.author }}</p>
+                    <p class="document-id">Document ID: {{ document.doc_id }}</p>
+                </div>
+            </div>
+            
+            <div class="document-content">
+                <div class="document-section">
+                    <h2>Abstract</h2>
+                    <div class="document-abstract">
+                        {{ document.abstract }}
+                    </div>
+                </div>
+                
+                {% if document.file_path %}
+                <div class="document-section">
+                    <h2>Full Document</h2>
+                    <div class="document-actions">
+                        <a href="{{ document.file_path }}" class="document-download" target="_blank">Download Full Paper</a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SciSearch - Information Retrieval System</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

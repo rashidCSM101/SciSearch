@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search - SciSearch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #0062cc, #0097ff);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo a {
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        
+        .main-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        .search-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+        }
+        
+        .search-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 28px;
+            font-weight: 500;
+        }
+        
+        .search-description {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .search-form {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .search-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .search-group-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .search-group-title {
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0;
+        }
+        
+        .search-group-description {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
+        
+        .search-operator {
+            display: inline-block;
+            padding: 5px 12px;
+            background-color: #f0f4f8;
+            color: #0062cc;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .search-operator.and {
+            background-color: #e3f2fd;
+            color: #0277bd;
+        }
+        
+        .search-operator.or {
+            background-color: #fff8e1;
+            color: #ff8f00;
+        }
+        
+        .search-operator.not {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+        
+        .search-input-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .search-input {
+            flex-grow: 1;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        
+        .search-input:focus {
+            border-color: #0062cc;
+        }
+        
+        .search-input.and:focus {
+            border-color: #0277bd;
+            box-shadow: 0 0 0 2px rgba(2, 119, 189, 0.1);
+        }
+        
+        .search-input.or:focus {
+            border-color: #ff8f00;
+            box-shadow: 0 0 0 2px rgba(255, 143, 0, 0.1);
+        }
+        
+        .search-input.not:focus {
+            border-color: #c62828;
+            box-shadow: 0 0 0 2px rgba(198, 40, 40, 0.1);
+        }
+        
+        .search-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .search-button {
+            padding: 12px 30px;
+            background-color: #0062cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .search-button:hover {
+            background-color: #004a9f;
+        }
+        
+        .search-tips {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #0062cc;
+        }
+        
+        .search-tips h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        
+        .search-tips ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .search-tips li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .search-examples {
+            margin-top: 15px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .search-toggle {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .search-toggle a {
+            color: #0062cc;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        .search-toggle a:hover {
+            color: #004a9f;
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #e1e4e8;
+        }
+        
+        @media (max-width: 768px) {
+            .search-input-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="/">Information Retrieval System</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main-container">
+        <div class="search-container">
+            <h1 class="search-title">Advanced Boolean Search</h1>
+            <p class="search-description">Use the power of Boolean operators to refine your search and find exactly what you're looking for.</p>
+            
+            <form action="/advanced_search" method="get" class="search-form">
+                <div class="search-group">
+                    <div class="search-group-header">
+                        <span class="search-operator and">AND</span>
+                        <h2 class="search-group-title">Must Include All Terms</h2>
+                    </div>
+                    <p class="search-group-description">Results will contain ALL of these terms (logical AND)</p>
+                    <div class="search-input-group">
+                        <input type="text" name="and_terms" class="search-input and" placeholder="Enter terms separated by spaces..." value="{{ and_terms if and_terms else '' }}">
+                    </div>
+                </div>
+                
+                <div class="search-group">
+                    <div class="search-group-header">
+                        <span class="search-operator or">OR</span>
+                        <h2 class="search-group-title">Must Include Any Terms</h2>
+                    </div>
+                    <p class="search-group-description">Results will contain AT LEAST ONE of these terms (logical OR)</p>
+                    <div class="search-input-group">
+                        <input type="text" name="or_terms" class="search-input or" placeholder="Enter terms separated by spaces..." value="{{ or_terms if or_terms else '' }}">
+                    </div>
+                </div>
+                
+                <div class="search-group">
+                    <div class="search-group-header">
+                        <span class="search-operator not">NOT</span>
+                        <h2 class="search-group-title">Must Exclude Terms</h2>
+                    </div>
+                    <p class="search-group-description">Results will NOT contain any of these terms (logical NOT)</p>
+                    <div class="search-input-group">
+                        <input type="text" name="not_terms" class="search-input not" placeholder="Enter terms separated by spaces..." value="{{ not_terms if not_terms else '' }}">
+                    </div>
+                </div>
+                
+                <div class="search-button-container">
+                    <button type="submit" class="search-button">Search</button>
+                </div>
+            </form>
+            
+            <div class="search-tips">
+                <h3>Search Tips</h3>
+                <ul>
+                    <li><strong>AND operator:</strong> Finds documents containing all specified terms.</li>
+                    <li><strong>OR operator:</strong> Finds documents containing at least one of the specified terms.</li>
+                    <li><strong>NOT operator:</strong> Excludes documents containing the specified terms.</li>
+                    <li>You can use multiple terms in each field, separated by spaces.</li>
+                    <li>The search is not case-sensitive.</li>
+                </ul>
+                <div class="search-examples">
+                    <p><strong>Example:</strong> AND: "machine learning", OR: "neural network algorithm", NOT: "regression"</p>
+                </div>
+            </div>
+            
+            <div class="search-toggle">
+                <a href="/">Switch to Simple Search</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SciSearch - Information Retrieval System</p>
+    </footer>
+</body>
+</html>

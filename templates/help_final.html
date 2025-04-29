@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Help - Information Retrieval System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enhanced-style.css') }}">
+    <style>
+        .help-section {
+            background-color: var(--card-color);
+            border-radius: 1rem;
+            box-shadow: var(--shadow-lg);
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .help-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0 0 0.5rem;
+            text-align: center;
+        }
+        
+        .help-subtitle {
+            color: var(--text-light);
+            margin-bottom: 2.5rem;
+            font-size: 1.125rem;
+            text-align: center;
+        }
+        
+        .help-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .help-topic {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .help-topic:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        
+        .help-topic-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .help-topic-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: var(--primary-light);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+        
+        .help-topic-content {
+            line-height: 1.6;
+        }
+        
+        .help-topic-content p {
+            margin-bottom: 1rem;
+        }
+        
+        .help-topic-content ul, .help-topic-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+        
+        .help-topic-content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .help-example {
+            background-color: #f8fafc;
+            border-radius: 0.5rem;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid var(--primary-color);
+            font-family: monospace;
+        }
+        
+        .help-tip {
+            background-color: #f0f9ff;
+            border-radius: 0.5rem;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid #0ea5e9;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .help-tip-icon {
+            color: #0ea5e9;
+            font-size: 1.25rem;
+            margin-top: 0.25rem;
+        }
+        
+        .help-tip-content {
+            flex: 1;
+        }
+        
+        .help-tip-content p:last-child {
+            margin-bottom: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .help-section {
+                padding: 2rem 1.5rem;
+            }
+            
+            .help-title {
+                font-size: 2rem;
+            }
+            
+            .help-subtitle {
+                font-size: 1rem;
+            }
+            
+            .help-topic-title {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Scientific Document Search Engine Logo">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <div class="header-links">
+                <a href="/">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/advanced_search">Advanced Search</a>
+                <a href="/help" class="active">Help</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="help-section animate-on-scroll">
+            <h1 class="help-title">Search Help</h1>
+            <p class="help-subtitle">Learn how to use our search engine effectively</p>
+            
+            <div class="help-content">
+                <div id="basic" class="help-topic animate-on-scroll">
+                    <div class="help-topic-title">
+                        <div class="help-topic-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <span>Basic Search</span>
+                    </div>
+                    <div class="help-topic-content">
+                        <p>To perform a basic search, simply enter your search terms in the search box and press Enter or click the Search button.</p>
+                        <p>The search engine will return documents that contain all of the words in your query.</p>
+                        
+                        <div class="help-example">
+                            <strong>Example:</strong> machine learning
+                        </div>
+                        
+                        <p>This will return documents that contain both "machine" and "learning".</p>
+                        
+                        <div class="help-tip">
+                            <div class="help-tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="help-tip-content">
+                                <p>For more precise searches, try using the advanced search options or boolean operators.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="boolean" class="help-topic animate-on-scroll">
+                    <div class="help-topic-title">
+                        <div class="help-topic-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <span>Boolean Operators</span>
+                    </div>
+                    <div class="help-topic-content">
+                        <p>Our search engine supports the following boolean operators:</p>
+                        
+                        <ul>
+                            <li><strong>AND</strong>: Returns documents that contain both terms.</li>
+                            <li><strong>OR</strong>: Returns documents that contain either term.</li>
+                            <li><strong>NOT</strong>: Excludes documents that contain the specified term.</li>
+                        </ul>
+                        
+                        <div class="help-example">
+                            <strong>Examples:</strong><br>
+                            neural AND networks<br>
+                            machine OR learning<br>
+                            algorithm NOT genetic
+                        </div>
+                        
+                        <p>You can also use parentheses to group terms and create more complex queries:</p>
+                        
+                        <div class="help-example">
+                            <strong>Example:</strong> (neural OR deep) AND networks NOT convolutional
+                        </div>
+                        
+                        <div class="help-tip">
+                            <div class="help-tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="help-tip-content">
+                                <p>Boolean operators must be in ALL CAPS (AND, OR, NOT) to be recognized as operators.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="advanced" class="help-topic animate-on-scroll">
+                    <div class="help-topic-title">
+                        <div class="help-topic-icon">
+                            <i class="fas fa-sliders"></i>
+                        </div>
+                        <span>Advanced Search</span>
+                    </div>
+                    <div class="help-topic-content">
+                        <p>The advanced search page allows you to create complex queries using separate fields for AND, OR, and NOT operators.</p>
+                        
+                        <ul>
+                            <li><strong>AND terms</strong>: Documents must contain all of these terms.</li>
+                            <li><strong>OR terms</strong>: Documents must contain at least one of these terms.</li>
+                            <li><strong>NOT terms</strong>: Documents must not contain any of these terms.</li>
+                        </ul>
+                        
+                        <p>This is particularly useful for creating complex queries without having to remember the syntax for boolean operators.</p>
+                        
+                        <div class="help-tip">
+                            <div class="help-tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="help-tip-content">
+                                <p>You can access the advanced search by clicking the "Advanced Boolean Search" link on the home page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="spell" class="help-topic animate-on-scroll">
+                    <div class="help-topic-title">
+                        <div class="help-topic-icon">
+                            <i class="fas fa-spell-check"></i>
+                        </div>
+                        <span>Spell Correction</span>
+                    </div>
+                    <div class="help-topic-content">
+                        <p>Our search engine includes spell correction functionality. If you misspell a search term, the system will suggest a correction.</p>
+                        
+                        <p>For example, if you search for "nueral networks", the system will suggest "neural networks" as a correction.</p>
+                        
+                        <p>You can click on the suggested correction to perform a new search with the corrected terms.</p>
+                        
+                        <div class="help-tip">
+                            <div class="help-tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="help-tip-content">
+                                <p>Spell correction works best for common technical terms in the field of computer science and related disciplines.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="pdf" class="help-topic animate-on-scroll">
+                    <div class="help-topic-title">
+                        <div class="help-topic-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <span>PDF Viewing</span>
+                    </div>
+                    <div class="help-topic-content">
+                        <p>For each document in our database, you can view the corresponding PDF file (if available) by clicking the "View Document" button.</p>
+                        
+                        <p>The PDF will open in a new tab, allowing you to read the full paper directly in your browser.</p>
+                        
+                        <p>You can also download the PDF for offline reading by using your browser's download functionality.</p>
+                        
+                        <div class="help-tip">
+                            <div class="help-tip-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="help-tip-content">
+                                <p>If a PDF is not available for a particular document, you will see an error message.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'components/footer.html' %}
+    
+    <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+</body>
+</html>

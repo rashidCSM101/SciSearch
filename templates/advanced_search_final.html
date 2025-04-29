@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search - Information Retrieval System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enhanced-style.css') }}">
+    <style>
+        .advanced-search-container {
+            background-color: var(--card-color);
+            border-radius: 1rem;
+            box-shadow: var(--shadow-lg);
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .advanced-search-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0 0 0.75rem;
+            text-align: center;
+        }
+        
+        .advanced-search-description {
+            color: var(--text-light);
+            margin-bottom: 2.5rem;
+            font-size: 1.125rem;
+            text-align: center;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .advanced-search-form {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .search-group {
+            margin-bottom: 2rem;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            background-color: white;
+        }
+        
+        .search-group-header {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            gap: 1rem;
+        }
+        
+        .search-group-label {
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+        
+        .search-group-description {
+            color: var(--text-light);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        
+        .search-group-input {
+            padding: 1rem 1.5rem;
+            background-color: #f9fafb;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        .operator-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 0.5rem;
+            font-weight: 700;
+            font-size: 0.875rem;
+        }
+        
+        .operator-badge.and {
+            background-color: #dbeafe;
+            color: #1e40af;
+        }
+        
+        .operator-badge.or {
+            background-color: #fef3c7;
+            color: #b45309;
+        }
+        
+        .operator-badge.not {
+            background-color: #fee2e2;
+            color: #b91c1c;
+        }
+        
+        .search-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .search-button {
+            padding: 0.75rem 2rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color var(--transition-fast);
+        }
+        
+        .search-button:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .search-button.secondary {
+            background-color: #f3f4f6;
+            color: var(--text-color);
+        }
+        
+        .search-button.secondary:hover {
+            background-color: #e5e7eb;
+        }
+        
+        .search-toggle {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .search-toggle a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color var(--transition-fast);
+        }
+        
+        .search-toggle a:hover {
+            color: var(--primary-dark);
+        }
+        
+        @media (max-width: 768px) {
+            .advanced-search-container {
+                padding: 2rem 1.5rem;
+            }
+            
+            .advanced-search-title {
+                font-size: 1.75rem;
+            }
+            
+            .advanced-search-description {
+                font-size: 1rem;
+            }
+            
+            .search-actions {
+                flex-direction: column;
+            }
+            
+            .search-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Scientific Document Search Engine Logo">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <div class="header-links">
+                <a href="/">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/advanced_search" class="active">Advanced Search</a>
+                <a href="/help">Help</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="advanced-search-container animate-on-scroll">
+            <h1 class="advanced-search-title">Advanced Boolean Search</h1>
+            <p class="advanced-search-description">Use the power of Boolean operators to refine your search and find exactly what you're looking for.</p>
+            
+            <form action="/advanced_search" method="get" class="advanced-search-form">
+                <div class="search-group animate-on-scroll">
+                    <div class="search-group-header">
+                        <div class="operator-badge and">AND</div>
+                        <div>
+                            <div class="search-group-label">Must Include All Terms</div>
+                            <div class="search-group-description">Results will contain ALL of these terms (logical AND)</div>
+                        </div>
+                    </div>
+                    <div class="search-group-input">
+                        <input type="text" name="and_terms" class="search-input" placeholder="Enter terms separated by spaces..." value="{{ and_terms }}">
+                    </div>
+                </div>
+                
+                <div class="search-group animate-on-scroll">
+                    <div class="search-group-header">
+                        <div class="operator-badge or">OR</div>
+                        <div>
+                            <div class="search-group-label">Must Include Any Terms</div>
+                            <div class="search-group-description">Results will contain AT LEAST ONE of these terms (logical OR)</div>
+                        </div>
+                    </div>
+                    <div class="search-group-input">
+                        <input type="text" name="or_terms" class="search-input" placeholder="Enter terms separated by spaces..." value="{{ or_terms }}">
+                    </div>
+                </div>
+                
+                <div class="search-group animate-on-scroll">
+                    <div class="search-group-header">
+                        <div class="operator-badge not">NOT</div>
+                        <div>
+                            <div class="search-group-label">Must Exclude Terms</div>
+                            <div class="search-group-description">Results will NOT contain any of these terms (logical NOT)</div>
+                        </div>
+                    </div>
+                    <div class="search-group-input">
+                        <input type="text" name="not_terms" class="search-input" placeholder="Enter terms separated by spaces..." value="{{ not_terms }}">
+                    </div>
+                </div>
+                
+                <div class="search-actions">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                    <button type="reset" class="search-button secondary">
+                        <i class="fas fa-undo"></i> Reset
+                    </button>
+                </div>
+            </form>
+            
+            <div class="search-toggle">
+                <a href="/">
+                    <i class="fas fa-arrow-left"></i> Return to Basic Search
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    {% include 'components/footer.html' %}
+    
+    <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+</body>
+</html>

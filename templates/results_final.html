@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results - {{ query }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enhanced-style.css') }}">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Scientific Document Search Engine Logo">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <form action="/search" method="get" class="search-form-small">
+                <div class="search-box-small">
+                    <input type="text" name="q" class="search-input-small" value="{{ query }}" autofocus>
+                    <button type="submit" class="search-button-small">Search</button>
+                </div>
+            </form>
+            <div class="header-links">
+                <a href="/">Home</a>
+                <a href="/about">About Us</a>
+                <a href="/advanced_search">Advanced Search</a>
+                <a href="/help">Help</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        {% if corrected_query %}
+        <div class="spell-suggestion animate-on-scroll">
+            <i class="fas fa-spell-check"></i> Did you mean: <a href="/search?q={{ corrected_query }}">{{ corrected_query }}</a>?
+        </div>
+        {% endif %}
+        
+        <div class="results-info animate-on-scroll">
+            {% if results|length > 0 %}
+                <p>Found {{ results|length }} results for "{{ query }}"</p>
+            {% else %}
+                <p>No results found for "{{ query }}"</p>
+            {% endif %}
+        </div>
+        
+        <div class="results-container">
+            {% if results|length > 0 %}
+                {% for result in results %}
+                <div class="result-card animate-on-scroll">
+                    <h2 class="result-title"><a href="/document/{{ result.id }}">{{ result.title }}</a></h2>
+                    <div class="result-meta">
+                        <span><i class="fas fa-user"></i> {{ result.author }}</span>
+                        {% if result.year %}
+                        <span><i class="fas fa-calendar-alt"></i> {{ result.year }}</span>
+                        {% endif %}
+                        {% if result.journal %}
+                        <span><i class="fas fa-book"></i> {{ result.journal }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="result-abstract">
+                        {{ result.abstract[:300] }}{% if result.abstract|length > 300 %}...{% endif %}
+                    </div>
+                    <div class="result-actions">
+                        <a href="/document/{{ result.id }}" class="result-link"><i class="fas fa-file-alt"></i> View Details</a>
+                        <a href="/view_pdf/{{ result.id }}" class="result-link" target="_blank"><i class="fas fa-file-pdf"></i> View Document</a>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="no-results animate-on-scroll">
+                    <h2><i class="fas fa-search"></i> No Results Found</h2>
+                    <p>We couldn't find any documents matching your search query.</p>
+                    <p>Try using different keywords or check your spelling.</p>
+                    <p><a href="/advanced_search" class="advanced-search-link"><i class="fas fa-sliders"></i> Try Advanced Search</a></p>
+                </div>
+            {% endif %}
+        </div>
+        
+        {% if and_terms is defined or or_terms is defined or not_terms is defined %}
+        <div class="advanced-search-summary animate-on-scroll">
+            <h3>Advanced Search Parameters:</h3>
+            <ul>
+                {% if and_terms %}
+                <li><strong>AND terms:</strong> {{ and_terms }}</li>
+                {% endif %}
+                {% if or_terms %}
+                <li><strong>OR terms:</strong> {{ or_terms }}</li>
+                {% endif %}
+                {% if not_terms %}
+                <li><strong>NOT terms:</strong> {{ not_terms }}</li>
+                {% endif %}
+            </ul>
+            <p><a href="/advanced_search?and_terms={{ and_terms }}&or_terms={{ or_terms }}&not_terms={{ not_terms }}">Modify Search</a></p>
+        </div>
+        {% endif %}
+    </div>
+    
+    {% include 'components/footer.html' %}
+    
+    <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Help - SciSearch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <form action="/search" method="get" class="search-form-small">
+                <div class="search-box-small">
+                    <input type="text" name="q" class="search-input-small" placeholder="Enter your search query...">
+                    <button type="submit" class="search-button-small">Search</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="help-container">
+            <h1>Search Help & Syntax Guide</h1>
+            
+            <div class="help-section">
+                <h2>Basic Search</h2>
+                <p>Enter keywords to find documents containing those terms:</p>
+                <div class="example">
+                    <code>machine learning</code>
+                    <p>Finds documents containing either "machine" OR "learning"</p>
+                </div>
+            </div>
+            
+            <div class="help-section">
+                <h2>Boolean Operators</h2>
+                <p>Combine search terms with Boolean operators:</p>
+                
+                <h3>AND</h3>
+                <div class="example">
+                    <code>neural AND networks</code>
+                    <p>Finds documents containing both "neural" AND "networks"</p>
+                </div>
+                
+                <h3>OR</h3>
+                <div class="example">
+                    <code>classification OR clustering</code>
+                    <p>Finds documents containing either "classification" OR "clustering"</p>
+                </div>
+                
+                <h3>NOT</h3>
+                <div class="example">
+                    <code>machine learning NOT supervised</code>
+                    <p>Finds documents containing "machine learning" BUT NOT "supervised"</p>
+                </div>
+                
+                <h3>Combining Operators</h3>
+                <div class="example">
+                    <code>neural AND networks NOT convolutional</code>
+                    <p>Finds documents containing both "neural" AND "networks" BUT NOT "convolutional"</p>
+                </div>
+            </div>
+            
+            <div class="help-section">
+                <h2>Field Search</h2>
+                <p>Search within specific fields using the field:term syntax:</p>
+                
+                <div class="example">
+                    <code>author:smith</code>
+                    <p>Finds documents where the author field contains "smith"</p>
+                </div>
+                
+                <div class="example">
+                    <code>title:learning</code>
+                    <p>Finds documents where the title contains "learning"</p>
+                </div>
+                
+                <div class="example">
+                    <code>author:smith AND title:neural</code>
+                    <p>Finds documents by "smith" that also have "neural" in the title</p>
+                </div>
+            </div>
+            
+            <div class="help-section">
+                <h2>Phrase Search</h2>
+                <p>Search for exact phrases by enclosing them in quotation marks:</p>
+                
+                <div class="example">
+                    <code>"machine learning"</code>
+                    <p>Finds documents containing the exact phrase "machine learning"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SciSearch - Information Retrieval System</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9356ebfc9b8553ed',t:'MTc0NTUxMTU2MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

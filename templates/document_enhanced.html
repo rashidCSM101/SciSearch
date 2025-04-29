@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ document.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        .header-container {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #0062cc, #0097ff);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo-small a {
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        
+        .search-form-small {
+            flex-grow: 1;
+            max-width: 600px;
+        }
+        
+        .search-box-small {
+            display: flex;
+            background: white;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .search-input-small {
+            flex-grow: 1;
+            padding: 12px 20px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+        
+        .search-button-small {
+            background: #0062cc;
+            color: white;
+            border: none;
+            padding: 0 25px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        
+        .search-button-small:hover {
+            background: #004a9f;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 30px;
+        }
+        
+        .document-container {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            flex: 1;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #0062cc;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        .back-button:hover {
+            color: #004a9f;
+            text-decoration: underline;
+        }
+        
+        .document-header {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 20px;
+        }
+        
+        .document-title {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 28px;
+            color: #333;
+        }
+        
+        .document-meta {
+            color: #666;
+            font-size: 15px;
+        }
+        
+        .document-meta p {
+            margin: 5px 0;
+        }
+        
+        .document-section {
+            margin-bottom: 30px;
+        }
+        
+        .document-section h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .document-abstract {
+            line-height: 1.6;
+            color: #444;
+        }
+        
+        .document-actions {
+            margin-top: 20px;
+        }
+        
+        .document-download {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0062cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        .document-download:hover {
+            background-color: #004a9f;
+        }
+        
+        .info-panel {
+            width: 300px;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            align-self: flex-start;
+            position: sticky;
+            top: 30px;
+        }
+        
+        .info-panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .info-panel-title {
+            font-size: 20px;
+            font-weight: 500;
+            margin: 0;
+        }
+        
+        .info-panel-subtitle {
+            color: #666;
+            font-size: 14px;
+            margin: 5px 0 0;
+        }
+        
+        .info-panel-content {
+            margin-bottom: 20px;
+        }
+        
+        .info-item {
+            margin-bottom: 15px;
+        }
+        
+        .info-item-label {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .info-item-value {
+            font-size: 15px;
+            color: #333;
+        }
+        
+        .info-panel-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .info-panel-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: #f0f4f8;
+            color: #0062cc;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background 0.2s, color 0.2s;
+        }
+        
+        .info-panel-button i {
+            margin-right: 8px;
+        }
+        
+        .info-panel-button:hover {
+            background-color: #0062cc;
+            color: white;
+        }
+        
+        .info-panel-button.primary {
+            background-color: #0062cc;
+            color: white;
+        }
+        
+        .info-panel-button.primary:hover {
+            background-color: #004a9f;
+        }
+        
+        .document-thumbnail {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f4f8;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .document-thumbnail img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .document-logo {
+            font-size: 48px;
+            color: #0062cc;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #e1e4e8;
+        }
+        
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .info-panel {
+                width: 100%;
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-small">
+                <a href="/">Information Retrieval System</a>
+            </div>
+            <form action="/search" method="get" class="search-form-small">
+                <div class="search-box-small">
+                    <input type="text" name="q" class="search-input-small" placeholder="Enter your search query...">
+                    <button type="submit" class="search-button-small">Search</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="document-container">
+            <a href="javascript:history.back()" class="back-button">&larr; Back to results</a>
+            
+            <div class="document-header">
+                <h1 class="document-title">{{ document.title }}</h1>
+                <div class="document-meta">
+                    <p class="document-author">By: {{ document.author }}</p>
+                    <p class="document-id">Document ID: {{ document.doc_id }}</p>
+                </div>
+            </div>
+            
+            <div class="document-content">
+                <div class="document-section">
+                    <h2>Abstract</h2>
+                    <div class="document-abstract">
+                        {{ document.abstract }}
+                    </div>
+                </div>
+                
+                <div class="document-section">
+                    <h2>Full Document</h2>
+                    <div class="document-actions">
+                        <a href="{{ url_for('view_pdf', doc_id=document.doc_id) }}" class="document-download" target="_blank">View Document</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-panel-header">
+                <div>
+                    <h2 class="info-panel-title">Document Information</h2>
+                    <p class="info-panel-subtitle">Scientific Paper</p>
+                </div>
+            </div>
+            
+            <div class="document-thumbnail">
+                {% if document.thumbnail %}
+                <img src="{{ document.thumbnail }}" alt="Document thumbnail">
+                {% else %}
+                <div class="document-logo">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="info-panel-content">
+                <div class="info-item">
+                    <div class="info-item-label">Title</div>
+                    <div class="info-item-value">{{ document.title }}</div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-item-label">Author</div>
+                    <div class="info-item-value">{{ document.author }}</div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-item-label">Document ID</div>
+                    <div class="info-item-value">{{ document.doc_id }}</div>
+                </div>
+                
+                {% if document.doi %}
+                <div class="info-item">
+                    <div class="info-item-label">DOI</div>
+                    <div class="info-item-value">{{ document.doi }}</div>
+                </div>
+                {% endif %}
+                
+                {% if document.year %}
+                <div class="info-item">
+                    <div class="info-item-label">Publication Year</div>
+                    <div class="info-item-value">{{ document.year }}</div>
+                </div>
+                {% endif %}
+                
+                {% if document.journal %}
+                <div class="info-item">
+                    <div class="info-item-label">Journal</div>
+                    <div class="info-item-value">{{ document.journal }}</div>
+                </div>
+                {% endif %}
+            </div>
+            
+            <div class="info-panel-actions">
+                <a href="{{ url_for('view_pdf', doc_id=document.doc_id) }}" class="info-panel-button primary" target="_blank">
+                    <i class="fas fa-eye"></i> View Document
+                </a>
+                <a href="javascript:window.print()" class="info-panel-button">
+                    <i class="fas fa-print"></i> Print Page
+                </a>
+                <a href="javascript:void(0)" onclick="navigator.clipboard.writeText(window.location.href)" class="info-panel-button">
+                    <i class="fas fa-link"></i> Copy Link
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 SciSearch - Information Retrieval System</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
